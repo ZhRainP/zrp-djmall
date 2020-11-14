@@ -13,10 +13,16 @@ import com.dj.mall.product.pro.mapper.ProductSkuMapper;
 import java.util.List;
 @Service
 public class ProductSkuImpl extends ServiceImpl<ProductSkuMapper, ProductSkuEntity> implements ProductSkuApi {
+    /**
+     * 根据商品ID插叙sku列表
+     * @param id 商品ID
+     * @return
+     * @throws BusinessException
+     */
     @Override
-    public List<ProductSkuDTO> findProductSkuById(Integer id) throws BusinessException {
+    public List<ProductSkuDTO> findProductSkuById(Integer productId) throws BusinessException {
         QueryWrapper<ProductSkuEntity> wrapper = new QueryWrapper<>();
-        wrapper.eq("product_id", id);
+        wrapper.eq("product_id", productId);
         List<ProductSkuEntity> productSkuEntityList = super.list(wrapper);
         return DozerUtil.mapList(productSkuEntityList, ProductSkuDTO.class);
     }

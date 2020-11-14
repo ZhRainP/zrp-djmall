@@ -9,6 +9,7 @@ import com.dj.mall.common.base.BusinessException;
 import com.dj.mall.common.base.PageResult;
 import com.dj.mall.common.constant.CodeConstant;
 import com.dj.mall.common.util.DozerUtil;
+import com.dj.mall.common.util.QiNiuUtils;
 import com.dj.mall.product.api.ProductApi;
 import com.dj.mall.product.api.dto.ProductDTO;
 import com.dj.mall.product.pro.bo.ProductBO;
@@ -48,6 +49,8 @@ public class ProductImpl extends ServiceImpl<ProductMapper, ProductEntity> imple
         //第一个默认处理
         productSkuEntities.get(0).setIsDefault(CodeConstant.IS_DEFAULT);
         productSkuService.saveBatch(productSkuEntities);
+        //七牛云
+        QiNiuUtils.uploadByByte(productDTO.getImg(), productDTO.getProductImg());
     }
 
     /**

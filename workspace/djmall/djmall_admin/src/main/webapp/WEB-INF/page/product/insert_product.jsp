@@ -187,6 +187,11 @@
         <textarea name="productDescription" placeholder="请输入内容" class="layui-textarea"></textarea>
     </div><br>
     </div>
+
+    <div>
+        图片：<input type="file" name="img"/>
+    </div>
+
     <div class="layui-input-block">
     分类：<select name="productType" id="code" onchange="search()">
     <option value="aaa">请选择</option>

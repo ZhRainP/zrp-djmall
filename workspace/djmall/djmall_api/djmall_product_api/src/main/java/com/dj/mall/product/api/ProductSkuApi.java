@@ -12,5 +12,7 @@ public interface ProductSkuApi {
      * @return
      * @throws BusinessException
      */
-    List<ProductSkuDTO> findProductSkuById(Integer id) throws BusinessException;
+    List<ProductSkuDTO> findProductSkuById(Integer productId) throws BusinessException;
+
+
 }

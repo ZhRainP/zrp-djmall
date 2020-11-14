@@ -74,12 +74,20 @@
     }
     /* 修改 */
     function toUpdate (id) {
+        var checkeBoxs=$("#tb :checked");
+        var index = layer.load(2,{time:1500});
+        if(checkeBoxs.length==0){
+            layer.msg("，请选择一个", {icon: 6});
+            layer.close(index);
+            return;
+        }
+        var id= checkeBoxs.val();
         location.href = "<%=request.getContextPath()%>/product/toUpdate?id="+id;
     }
 </script>
 <body>
 <input type="button" value="新增" onclick="add()" class="btn btn-primary"/>
-<input type="button" value="修改" onclick="toupdate()" class="btn btn-primary"/>
+<input type="button" value="修改" onclick="toUpdate()" class="btn btn-primary"/>
 <table class="layui-table" lay-skin="line" lay-size="sm">
     <tr>
         <th>id</th>

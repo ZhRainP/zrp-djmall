@@ -47,4 +47,6 @@ public class ProductDTO implements Serializable {
      * 商品状态
      */
     private Integer productStatus;
+
+    private byte[] img;
 }

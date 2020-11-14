@@ -65,8 +65,6 @@ public class ProductPageController {
         model.put("freight", freightDTOList);
         ProductDTO productDTO = productApi.findListById(id);
         model.put("product", productDTO);
-        List<ProductSkuDTO> productSkuDTOList = productSkuApi.findProductSkuById(id);
-        model.put("proSku", productSkuDTOList);
         return "product/update_product";
     }
 }
