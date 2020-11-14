@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+	namespace:用于隔离SQL全局唯一（采用接口和XML开发时为接口的全路径）
+ -->
+<mapper namespace="com.dj.mall.auth.pro.mapper.user.UserMapper">
+
+    <select id="userList" resultType="com.dj.mall.auth.pro.bo.UserBo">
+        SELECT
+        u.id,
+        u.salt,
+        u.start_time,
+        u.phone,
+        u. LEVEL,
+        u.nick_name,
+        bd.dictionary_name as sex,
+        u.end_time,
+        bdd.dictionary_name as `status`,
+        u. PASSWORD,
+        u.username,
+        u.mail,
+        role.role_name
+        FROM
+        djmall_auth_user u
+        LEFT JOIN djmall_auth_user_role ro ON u.id = ro.user_id
+        LEFT JOIN djmall_auth_role role ON role.id = ro.role_id
+        LEFT JOIN dimall_bash_dictionary bd ON bd.`code` = u.sex
+        LEFT JOIN dimall_bash_dictionary bdd ON bdd.`code` = u.`status`
+        <where>
+            <if test="nameLike!=null and nameLike!='' ">
+                <bind name="nameLike" value="'%'+nameLike+'%'"/>
+                and u.username like #{nameLike}  or u.phone like #{nameLike} or u.mail like #{nameLike}
+            </if>
+
+            <if test="sex!=null and sex != ''">
+                and u.sex  = #{sex}
+            </if>
+            <if test="level!=null">
+                and u.level  = #{level}
+            </if>
+            <if test="status!=null and status != '' and status != 'aaaa'">
+                and u.status  = #{status}
+            </if>
+        </where>
+    </select>
+</mapper>

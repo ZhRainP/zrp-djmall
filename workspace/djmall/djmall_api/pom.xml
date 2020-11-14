@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>djmall</artifactId>
+        <groupId>com.dj.mall</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>djmall_api</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>djmall_auth_api</module>
+        <module>djmall_cmpt_api</module>
+        <module>djmall_dict_api</module>
+        <module>djmall_product_api</module>
+    </modules>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.dj.mall</groupId>
+            <artifactId>djmall_common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

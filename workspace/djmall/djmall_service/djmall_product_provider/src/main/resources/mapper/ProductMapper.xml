@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+	namespace:用于隔离SQL全局唯一（采用接口和XML开发时为接口的全路径）
+ -->
+<mapper namespace="com.dj.mall.product.pro.mapper.ProductMapper">
+
+    <select id="findList" resultType="com.dj.mall.product.pro.bo.ProductBO">
+        select
+               dmp.id,
+               dmp.product_freight,
+               dmp.product_name,
+               dmp.product_description,
+               dmp.product_img,
+               dbd.dictionary_name as productType,
+               dps.sku_status as productStatus
+        from
+            djmall_mall_product dmp
+        left join
+            djmall_product_sku dps on dmp.id = dps.product_id
+        left join
+            dimall_bash_dictionary dbd on dmp.product_type = dbd.code
+        where
+            dps.is_default = 0
+    </select>
+</mapper>
