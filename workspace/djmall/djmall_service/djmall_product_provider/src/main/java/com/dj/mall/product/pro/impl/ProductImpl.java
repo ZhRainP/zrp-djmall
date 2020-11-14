@@ -1,6 +1,7 @@
 package com.dj.mall.product.pro.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -60,5 +61,19 @@ public class ProductImpl extends ServiceImpl<ProductMapper, ProductEntity> imple
         Page<ProductBO> page = new Page<>(productDTO.getPageNo(), productDTO.getPageSize());
         IPage<ProductBO> PageInfo = super.baseMapper.findList(page, DozerUtil.map(productDTO, ProductBO.class));
         return PageResult.pageInfo(PageInfo.getCurrent(), PageInfo.getPages(), DozerUtil.mapList(PageInfo.getRecords(), ProductDTO.class));
+    }
+
+    /**
+     * 根据ID查找商品信息
+     * @param id 商品ID
+     * @return
+     * @throws BusinessException
+     */
+    @Override
+    public ProductDTO findListById(Integer id) throws BusinessException {
+        QueryWrapper<ProductEntity> wrapper = new QueryWrapper<>();
+        wrapper.eq("id", id);
+        ProductEntity dictionaryEntity = super.getOne(wrapper);
+        return DozerUtil.map(dictionaryEntity, ProductDTO.class);
     }
 }

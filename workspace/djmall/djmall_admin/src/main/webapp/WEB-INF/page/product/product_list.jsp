@@ -72,10 +72,14 @@
             content:"<%=request.getContextPath()%>/product/toInsert",
         })
     }
+    /* 修改 */
+    function toUpdate (id) {
+        location.href = "<%=request.getContextPath()%>/product/toUpdate?id="+id;
+    }
 </script>
 <body>
 <input type="button" value="新增" onclick="add()" class="btn btn-primary"/>
-<input type="button" value="修改" onclick="add()" class="btn btn-primary"/>
+<input type="button" value="修改" onclick="toupdate()" class="btn btn-primary"/>
 <table class="layui-table" lay-skin="line" lay-size="sm">
     <tr>
         <th>id</th>

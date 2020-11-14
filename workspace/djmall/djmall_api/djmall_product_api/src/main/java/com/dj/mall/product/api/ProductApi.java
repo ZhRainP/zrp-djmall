@@ -19,4 +19,12 @@ public interface ProductApi {
      * @throws BusinessException
      */
     PageResult findList(ProductDTO productDTO) throws BusinessException;
+
+    /**
+     * 根据ID查询商品信息
+     * @param id 商品ID
+     * @return
+     * @throws BusinessException
+     */
+    ProductDTO findListById(Integer id) throws BusinessException;
 }
