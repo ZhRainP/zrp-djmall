@@ -85,4 +85,28 @@ public class ProductController {
         model.put("proSku", productSkuDTOList);
         return new ResultModel().success(DozerUtil.mapList(productSkuDTOList, ProductSKUVOResp.class));
     }
+
+    /**
+     * 修改商品
+     * @param productVOReq 商品信息
+     * @param img 商品图片
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("updateProduct")
+    public ResultModel<Object> updateProduct(ProductVOReq productVOReq, MultipartFile img) throws Exception{
+        //存入图片信息数组，文件名
+        // productDTO.setImg(fileName);
+        //        //讲图片转为字节流
+        //        productDTO.setProImg(proImg.getBytes());
+        ProductDTO productDTO = DozerUtil.map(productVOReq, ProductDTO.class);
+//        productDTO.setImg(productDTO.getProductImg().getBytes());
+        if(img.getOriginalFilename() != null ){
+            productVOReq.setImg(img.getBytes());
+            productVOReq.setProductImg(img.getOriginalFilename());
+        }
+        //修改
+        productApi.updateProduct(DozerUtil.map(productVOReq, ProductDTO.class));
+        return new ResultModel<>().success();
+    }
 }

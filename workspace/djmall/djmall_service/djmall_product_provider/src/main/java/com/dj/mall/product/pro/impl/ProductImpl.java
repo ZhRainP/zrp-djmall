@@ -12,6 +12,7 @@ import com.dj.mall.common.util.DozerUtil;
 import com.dj.mall.common.util.QiNiuUtils;
 import com.dj.mall.product.api.ProductApi;
 import com.dj.mall.product.api.dto.ProductDTO;
+import com.dj.mall.product.api.dto.ProductSkuDTO;
 import com.dj.mall.product.pro.bo.ProductBO;
 import com.dj.mall.product.pro.entity.ProductEntity;
 import com.dj.mall.product.pro.entity.ProductSkuEntity;
@@ -20,6 +21,7 @@ import com.dj.mall.product.pro.service.productSkuService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
+import java.util.UUID;
 
 @Service
 public class ProductImpl extends ServiceImpl<ProductMapper, ProductEntity> implements ProductApi {
@@ -63,6 +65,9 @@ public class ProductImpl extends ServiceImpl<ProductMapper, ProductEntity> imple
     public PageResult findList(ProductDTO productDTO) throws BusinessException {
         Page<ProductBO> page = new Page<>(productDTO.getPageNo(), productDTO.getPageSize());
         IPage<ProductBO> PageInfo = super.baseMapper.findList(page, DozerUtil.map(productDTO, ProductBO.class));
+        PageInfo.getRecords().forEach(pro -> {
+            pro.setProductImg(QiNiuUtils.URL + pro.getProductImg());
+        });
         return PageResult.pageInfo(PageInfo.getCurrent(), PageInfo.getPages(), DozerUtil.mapList(PageInfo.getRecords(), ProductDTO.class));
     }
 
@@ -78,5 +83,31 @@ public class ProductImpl extends ServiceImpl<ProductMapper, ProductEntity> imple
         wrapper.eq("id", id);
         ProductEntity dictionaryEntity = super.getOne(wrapper);
         return DozerUtil.map(dictionaryEntity, ProductDTO.class);
+    }
+
+    /**
+     * 修改商品
+     * @param productDTO 商品信息
+     * @throws BusinessException
+     */
+    @Override
+    public void updateProduct(ProductDTO productDTO) throws BusinessException {
+        //生成uuid
+        String uuid=null;
+        if(productDTO.getImg() != null) {
+            uuid = UUID.randomUUID().toString().replace("-", "") +
+                    productDTO.getProductImg().substring(productDTO.getProductImg().lastIndexOf("."));
+            productDTO.setImgUrl(QiNiuUtils.URL + uuid);
+        }
+        //修改spu
+        getBaseMapper().updateById(DozerUtil.map(productDTO,ProductEntity.class));
+        //修改sku
+        List<ProductSkuDTO> proSkuList = productDTO.getSkuList();
+        productSkuService.updateBatchById(DozerUtil.mapList(proSkuList,ProductSkuEntity.class));
+        //上传图片
+        if(productDTO.getImg() != null) {
+            QiNiuUtils.uploadByByte(productDTO.getImg(), uuid);
+        }
+
     }
 }

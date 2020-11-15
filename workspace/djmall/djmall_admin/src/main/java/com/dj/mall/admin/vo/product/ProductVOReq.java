@@ -47,4 +47,8 @@ public class ProductVOReq {
      * 总页数
      */
     private Integer pageSize;
+
+    private byte[] img;
+
+    private String imgUrl;
 }

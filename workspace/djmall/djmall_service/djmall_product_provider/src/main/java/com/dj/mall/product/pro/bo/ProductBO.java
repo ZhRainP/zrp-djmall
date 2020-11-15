@@ -41,4 +41,5 @@ public class ProductBO {
      */
     private Integer productStatus;
 
+
 }

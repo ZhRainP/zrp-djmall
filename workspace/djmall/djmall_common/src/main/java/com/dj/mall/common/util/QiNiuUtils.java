@@ -43,7 +43,7 @@ public class QiNiuUtils {
     /**
      * 链接
      */
-    public static final String URL = "http://qjrxidgn4.hb-bkt.clouddn.com//";
+    public static final String URL = "http://qjrxidgn4.hb-bkt.clouddn.com/";
 
     /**
      * 配置类

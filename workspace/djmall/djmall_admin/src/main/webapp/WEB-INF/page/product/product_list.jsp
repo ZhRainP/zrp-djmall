@@ -15,7 +15,7 @@
     function search(){
         $.get(
             "<%=request.getContextPath()%>/product/productList",
-            {"pageNo":pageNo,"pageSize":1},
+            {"pageNo":pageNo,"pageSize":4},
             function(result){
                 var html = "";
                 var pageHtml = "";
@@ -31,7 +31,7 @@
                         html += "<th>下架</th>"
                     }
                     html += "<th>"+product[i].productFreight+"</th>"
-                    html += "<th>"+product[i].productImg+"</th>"
+                    html += "<th><img src='"+product[i].productImg+"' width = '400px' height = '100px'/> </th>"
                     html += "<th>"+product[i].productDescription+"</th>"
                     html += "</tr>"
                 }

@@ -133,6 +133,10 @@
             {"id":id},
             function(result){
                 if(result.code == 200){
+                    if(result.status == "ACTIVE"){
+                        layer.msg("已激活，不同激活");
+                        return
+                    }
                     window.location.href = "<%=request.getContextPath()%>/user/toList";
                 }
             })

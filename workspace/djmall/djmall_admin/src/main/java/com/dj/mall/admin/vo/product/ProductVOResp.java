@@ -47,4 +47,7 @@ public class ProductVOResp {
      * 总页数
      */
     private Integer pageSize;
+
+    private String imgUrl;
+
 }

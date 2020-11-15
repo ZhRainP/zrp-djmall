@@ -27,4 +27,11 @@ public interface ProductApi {
      * @throws BusinessException
      */
     ProductDTO findListById(Integer id) throws BusinessException;
+
+    /**
+     * 修改商品
+     * @param productDTO 商品信息
+     * @throws BusinessException
+     */
+    void updateProduct(ProductDTO productDTO) throws BusinessException;
 }

@@ -49,4 +49,6 @@ public class ProductDTO implements Serializable {
     private Integer productStatus;
 
     private byte[] img;
+
+    private String imgUrl;
 }
