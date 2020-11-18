@@ -10,6 +10,7 @@ import com.dj.mall.auth.pro.entity.user.UserRoleEntity;
 import com.dj.mall.auth.pro.mapper.user.UserMapper;
 import com.dj.mall.auth.pro.service.user.UserRoleService;
 import com.dj.mall.autr.api.dto.user.UserDto;
+import com.dj.mall.autr.api.dto.user.UserTokenDTO;
 import com.dj.mall.autr.api.user.UserApi;
 import com.dj.mall.cmpt.api.EMailApi;
 import com.dj.mall.common.base.BusinessException;
@@ -17,10 +18,13 @@ import com.dj.mall.common.constant.CodeConstant;
 import com.dj.mall.common.util.DozerUtil;
 import com.dj.mall.common.util.PasswordSecurityUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
+import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
 
 @Service
@@ -29,6 +33,8 @@ public class UserApiImpl extends ServiceImpl<UserMapper, UserEntity> implements 
     private UserRoleService userRoleService;
     @Reference
     private EMailApi eMailApi;
+    @Autowired
+    private RedisTemplate redisTemplate;
     /**
      * 登陆
      * @param username 用户名
@@ -233,4 +239,60 @@ public class UserApiImpl extends ServiceImpl<UserMapper, UserEntity> implements 
         wrapper.eq("username", userDto.getUsername());
         super.update(wrapper);
     }
+
+    @Override
+    public UserDto findUserByPhone(UserDto userDto) throws BusinessException {
+        QueryWrapper<UserEntity> wrapper = new QueryWrapper<>();
+        wrapper.eq("phone", userDto.getPhone());
+        UserEntity user = super.getOne(wrapper);
+        if(!userDto.getPhone().equals(user.getPhone())){
+            throw new BusinessException(-5, "请输入您正确的手机号");
+        }
+        //修改密码
+        UpdateWrapper userWrapper = new UpdateWrapper<>();
+        userWrapper.set("password", userDto.getPassword());
+        userWrapper.set("salt", userDto.getSalt());
+        userWrapper.eq("phone", userDto.getPhone());
+        super.update(userWrapper);
+        return DozerUtil.map(user, UserDto.class);
+    }
+
+    /**
+     * 普通用户 token 登陆
+     * @param username 用户名
+     * @param password 密码
+     * @return
+     */
+    @Override
+    public UserTokenDTO loginToken(String username, String password) throws BusinessException{
+        QueryWrapper<UserEntity> wrapper = new QueryWrapper<>();
+        wrapper.eq("username" , username);
+        wrapper.or().eq("mail", username);
+        wrapper.or().eq("phone", username);
+        UserEntity user = this.getOne(wrapper);
+        if(user == null) {
+            throw new BusinessException(-2, "用户不存在");
+        }
+        if(!password.equals(user.getPassword())){
+            throw new BusinessException("用户名或密码错误");
+        }
+        QueryWrapper<UserRoleEntity> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("user_id", user.getId());
+        UserRoleEntity userRoleEntity = userRoleService.getOne(queryWrapper);
+        if(!userRoleEntity.getRoleId().equals(CodeConstant.CUSTOMER_ROLE_ID)){
+            throw new BusinessException("请使用顾客角色登陆");
+        }
+        //生成token
+        String token = UUID.randomUUID().toString().replace("-", "");
+        //token - user
+        redisTemplate.opsForValue().set("TOKEN_" + token, DozerUtil.map(user, UserDto.class), 21, TimeUnit.DAYS);
+        UserTokenDTO userTokenDTO = new UserTokenDTO();
+        userTokenDTO.setToken(token);
+        userTokenDTO.setNickName(user.getNickName());
+        userTokenDTO.setUsername(username);
+        return userTokenDTO;
+    }
+
+
+
 }

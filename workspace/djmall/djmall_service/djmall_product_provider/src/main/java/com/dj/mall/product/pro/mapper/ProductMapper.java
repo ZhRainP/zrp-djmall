@@ -16,4 +16,14 @@ public interface ProductMapper extends BaseMapper<ProductEntity> {
      * @return
      */
     IPage<ProductBO> findList(Page<ProductBO> page, @Param("productBO") ProductBO productBO) throws DataAccessException;
+
+    /**
+     * 用户看到的商品
+     * @param page
+     * @param productBO
+     * @return
+     */
+    IPage<ProductBO> allList(Page<ProductBO> page, @Param("productBO")ProductBO productBO) throws DataAccessException;
+
+    ProductBO findListByProId(Integer id) throws DataAccessException;
 }

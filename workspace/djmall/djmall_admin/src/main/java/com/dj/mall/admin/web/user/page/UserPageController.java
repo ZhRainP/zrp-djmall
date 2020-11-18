@@ -6,12 +6,19 @@ import com.dj.mall.autr.api.dto.role.RoleDTO;
 import com.dj.mall.autr.api.dto.user.UserDto;
 import com.dj.mall.autr.api.role.RoleApi;
 import com.dj.mall.autr.api.user.UserApi;
+import com.dj.mall.common.constant.CodeConstant;
 import com.dj.mall.common.util.PasswordSecurityUtil;
+import com.dj.mall.common.util.VerifyCodeUtil;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.imageio.ImageIO;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.util.List;
 
 import static com.dj.mall.common.constant.CodeConstant.USER_MANAGER_CODE;
@@ -103,5 +110,34 @@ public class UserPageController {
         model.put("username", username);
         model.put("salt", PasswordSecurityUtil.generateSalt());
         return "user/reset_pwd";
+    }
+
+    /**
+     * 去忘记密码
+     * @return
+     */
+    @RequestMapping("toForgetPwd")
+    public String toForgetPwd (ModelMap model) throws Exception {
+        model.put("salt", PasswordSecurityUtil.generateSalt());
+        return "user/forget_pwd";
+    }
+
+    @RequestMapping("/getVerifyCode")
+    public void getVerifyCode(HttpServletRequest request, HttpServletResponse response) {
+        response.setHeader("Expires", "-1");
+        response.setHeader("Cache-Control", "no-cache");
+        response.setHeader("Pragma", "no-cache");
+        response.setContentType("image/jpeg");
+        try {
+            String verifyCode = VerifyCodeUtil.generateTextCode(VerifyCodeUtil.TYPE_ALL_MIXED, 4, null);
+            request.getSession().setAttribute(CodeConstant.SESSION_VERIFY_CODE, verifyCode);
+            //设置输出的内容的类型为JPEG图像
+            BufferedImage bufferedImage = VerifyCodeUtil.generateImageCode(verifyCode, 90, 30, 3,
+                    true, Color.WHITE, Color.BLACK, null);
+            //写给浏览器
+            ImageIO.write(bufferedImage, "JPEG", response.getOutputStream());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -22,6 +22,9 @@ dubbo:
   protocol:
     name: dubbo # 协议名
     port: 20883 # 服务端口
+  consumer:
+    timeout: 60000
+    check: false
   #日志
 logging:
   level:

@@ -52,6 +52,10 @@ public class CodeConstant {
      */
     public static  final Integer MERCHANT_ROLE_ID = 2;
     /**
+     * 买家ID
+     */
+    public static  final Integer CUSTOMER_ROLE_ID = 3;
+    /**
      * 用户SESSION
      */
     public static  final String USER_SESSION = "USER";
@@ -85,6 +89,11 @@ public class CodeConstant {
      * 商品默认上架
      */
     public static final Integer  STATUS_UP  = 1;
+
+    /**
+     * 图形验证码
+     */
+    public static final String SESSION_VERIFY_CODE = "VERIFY_CODE";
 
 
 }

@@ -24,12 +24,12 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("product")
-public class ProductController {
-    @Reference
+public class  ProductController {
+    @Reference(timeout = 3000)
     private SkuApi skuApi;
     @Reference(timeout = 3000)
     private ProductApi productApi;
-    @Reference
+    @Reference(timeout = 3000)
     private ProductSkuApi productSkuApi;
     /**
      * 新增sku属性、属性值表
@@ -54,7 +54,7 @@ public class ProductController {
                 img.getOriginalFilename().substring(img.getOriginalFilename().indexOf("."));
         productVOReq.setProductImg(fileName);
         ProductDTO productDTO = DozerUtil.map(productVOReq, ProductDTO.class);
-        productDTO.setImg(img.getBytes());
+        productDTO.setImage(img.getBytes());
         productApi.insertProduct(productDTO);
         return new ResultModel().success();
     }
@@ -95,14 +95,9 @@ public class ProductController {
      */
     @RequestMapping("updateProduct")
     public ResultModel<Object> updateProduct(ProductVOReq productVOReq, MultipartFile img) throws Exception{
-        //存入图片信息数组，文件名
-        // productDTO.setImg(fileName);
-        //        //讲图片转为字节流
-        //        productDTO.setProImg(proImg.getBytes());
         ProductDTO productDTO = DozerUtil.map(productVOReq, ProductDTO.class);
-//        productDTO.setImg(productDTO.getProductImg().getBytes());
         if(img.getOriginalFilename() != null ){
-            productVOReq.setImg(img.getBytes());
+            productVOReq.setImage(img.getBytes());
             productVOReq.setProductImg(img.getOriginalFilename());
         }
         //修改

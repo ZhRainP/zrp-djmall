@@ -15,7 +15,7 @@ import java.util.List;
 public class ProductSkuImpl extends ServiceImpl<ProductSkuMapper, ProductSkuEntity> implements ProductSkuApi {
     /**
      * 根据商品ID插叙sku列表
-     * @param id 商品ID
+     * @param productId 商品ID
      * @return
      * @throws BusinessException
      */
@@ -25,5 +25,13 @@ public class ProductSkuImpl extends ServiceImpl<ProductSkuMapper, ProductSkuEnti
         wrapper.eq("product_id", productId);
         List<ProductSkuEntity> productSkuEntityList = super.list(wrapper);
         return DozerUtil.mapList(productSkuEntityList, ProductSkuDTO.class);
+    }
+
+    @Override
+    public List<ProductSkuDTO> getSkuById(Integer skuId) throws BusinessException {
+        QueryWrapper wrapper = new QueryWrapper<>();
+        wrapper.eq("id", skuId);
+        List<ProductSkuEntity> list = super.baseMapper.selectList(wrapper);
+        return DozerUtil.mapList(list, ProductSkuDTO.class);
     }
 }

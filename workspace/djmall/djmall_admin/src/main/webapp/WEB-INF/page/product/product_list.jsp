@@ -35,8 +35,8 @@
                     html += "<th>"+product[i].productDescription+"</th>"
                     html += "</tr>"
                 }
-                pageHtml += "<input type = 'button' value = '上一页' onclick = 'putDown(true)'/>"
-                pageHtml += "<input type = 'button' value = '下一页' onclick = 'putDown(false , "+result.data.pages+")'/>"
+                pageHtml += "<input type = 'button' value = '上一页' onclick = 'putDown(true)' class=\"layui-btn layui-btn-radius layui-btn-warm\"/>"
+                pageHtml += "<input type = 'button' value = '下一页' onclick = 'putDown(false , "+result.data.pages+")' class=\"layui-btn layui-btn-radius layui-btn-warm\"/>"
                 $("#page").html(pageHtml);
                 $("#tb").html(html);
             }

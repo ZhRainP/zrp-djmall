@@ -35,5 +35,8 @@ public class SkuResp {
      */
     private String attrValue;
 
+    /**
+     * sku ID集合
+     */
     private List<Integer> ids;
 }

@@ -53,6 +53,11 @@ public class FreightImpl extends ServiceImpl<FreightMapper, FreightEntity> imple
         super.update(wrapper);
     }
 
+    /**
+     * 添加运费
+     * @param freightDTO 运费信息
+     * @throws BusinessException
+     */
     @Override
     public void insert(FreightDTO freightDTO) throws BusinessException {
         super.save(DozerUtil.map(freightDTO, FreightEntity.class));

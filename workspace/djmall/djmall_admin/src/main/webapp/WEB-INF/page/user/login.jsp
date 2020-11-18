@@ -9,6 +9,7 @@
     <script type="text/javascript" src="<%=request.getContextPath()%>/static/jquery.validate.min.js"></script>
     <script type="text/javascript" src="<%=request.getContextPath()%>/static/additional-methods.min.js"></script>
     <script type="text/javascript" src="<%=request.getContextPath()%>/static/layer/layer.js"></script>
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/static/layer/layui.css" media="all">
     <script type="text/javascript" src="<%=request.getContextPath()%>/static/md5-min.js"></script>
     <style>
         .error {
@@ -94,6 +95,9 @@
         }
     }
 
+    function forgetPwd() {
+        location.href = "<%=request.getContextPath()%>/user/toForgetPwd"
+    }
 </script>
 <body>
 <form id="fm" algin="center">
@@ -101,10 +105,12 @@
 
     <label for="userName" >账号</label>
     <input type="text" name="username" id="username" onblur="findSalt(this.value)"/><br/>
+    <br>
     <label for="password">密码</label>
-    <input type="password" name="password" id="password"/><br/>
-    <input type="button" value="还没账号？点我去注册" onclick="register()"/>          |
-    <input type="submit" value="登录"/>
+    <input type="password" name="password" id="password"/>
+    <button type="submit" class="layui-btn layui-btn-xs">登录</button><br/>
+    <input type="button" value="忘记密码" onclick="forgetPwd()" class="layui-btn layui-btn-xs"/>
+    <input type="button" value="还没账号 ？点我去注册" onclick="register()" class="layui-btn layui-btn-xs"/><br>
 </form>
 </body>
 </html>

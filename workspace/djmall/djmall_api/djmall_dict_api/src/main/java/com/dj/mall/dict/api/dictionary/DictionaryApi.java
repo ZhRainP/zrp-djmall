@@ -39,5 +39,11 @@ public interface DictionaryApi {
      */
     void insertDict(DictionaryDTO dictionaryDTO) throws BusinessException;
 
+    /**
+     * 根据父级code查询列表
+     * @param parentCode 父级code
+     * @return
+     * @throws BusinessException
+     */
     List<DictionaryDTO> findDictByPCode(String parentCode) throws BusinessException;
 }

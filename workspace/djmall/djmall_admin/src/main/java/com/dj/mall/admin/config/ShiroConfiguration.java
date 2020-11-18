@@ -63,6 +63,10 @@ public class ShiroConfiguration {
         filters.put("/user/findSalt", "anon"); // anon 表示不需要认证
         filters.put("/user/active/**", "anon"); // anon 表示不需要认证
         filters.put("/user/toResetPwd/**", "anon"); // anon 表示不需要认证
+        filters.put("/user/toForgetPwd", "anon"); // anon 表示不需要认证
+        filters.put("/user/getVerifyCode/**", "anon"); // anon 表示不需要认证
+        filters.put("/user/sendSms", "anon"); // anon 表示不需要认证
+        filters.put("/user/forgetPwd", "anon"); // anon 表示不需要认证
         filters.put("/**", "authc"); // authc 表示必须认证才可访问
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filters);
         return shiroFilterFactoryBean;

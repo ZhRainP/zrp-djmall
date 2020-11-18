@@ -36,6 +36,9 @@ public class SkuDTO implements Serializable {
      */
     private String attrValue;
 
+    /**
+     * sku id集合
+     */
     private List<Integer> ids;
 
 }

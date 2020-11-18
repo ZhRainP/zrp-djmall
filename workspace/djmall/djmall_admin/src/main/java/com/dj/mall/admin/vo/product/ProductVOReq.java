@@ -48,7 +48,7 @@ public class ProductVOReq {
      */
     private Integer pageSize;
 
-    private byte[] img;
+    private byte[] image;
 
     private String imgUrl;
 }

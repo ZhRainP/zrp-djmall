@@ -8,11 +8,12 @@ import java.util.List;
 public interface ProductSkuApi {
     /**
      * 根据商品ID查找SKU列表
-     * @param id 商品ID
+     * @param productId 商品ID
      * @return
      * @throws BusinessException
      */
     List<ProductSkuDTO> findProductSkuById(Integer productId) throws BusinessException;
 
 
+    List<ProductSkuDTO> getSkuById(Integer skuId) throws BusinessException;
 }

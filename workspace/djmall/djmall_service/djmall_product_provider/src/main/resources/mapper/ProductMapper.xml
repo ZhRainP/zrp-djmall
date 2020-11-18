@@ -23,4 +23,27 @@
         where
             dps.is_default = 0
     </select>
+
+    <select id="allList" resultType="com.dj.mall.product.pro.bo.ProductBO">
+        select p.id,
+               p.product_name,
+               dps.sku_price,
+               dps.sku_count,
+               dbd.dictionary_name as productType,
+               dps.sku_rate,
+               p.product_freight,
+               p.product_img,
+               p.product_description
+        from djmall_mall_product p
+            left join dimall_bash_dictionary dbd on p.product_type  = dbd.code
+        left join djmall_product_sku dps on p.id = dps.product_id
+        where dps.is_default = 0
+    </select>
+    <select id="findListByProId" resultType="com.dj.mall.product.pro.bo.ProductBO">
+        select *
+        from djmall_mall_product p
+            left join dimall_bash_dictionary dbd on p.product_type  = dbd.code
+        left join djmall_product_sku dps on p.id = dps.product_id
+        where dps.is_default = 0 and p.id = #{id}
+    </select>
 </mapper>

@@ -8,6 +8,9 @@ dubbo:
   protocol:
     name: dubbo # 协议名
     port: 20888 # 服务端口
+  consumer:
+    timeout: 60000
+    check: false
 spring:
   mail:
     host: smtp.163.com #SMTP服务器地址

@@ -8,6 +8,7 @@
         <module>djmall_api</module>
         <module>djmall_common</module>
         <module>djmall_service</module>
+        <module>djmall_platform</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

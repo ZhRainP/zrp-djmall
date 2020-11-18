@@ -52,7 +52,7 @@ public class ProductImpl extends ServiceImpl<ProductMapper, ProductEntity> imple
         productSkuEntities.get(0).setIsDefault(CodeConstant.IS_DEFAULT);
         productSkuService.saveBatch(productSkuEntities);
         //七牛云
-        QiNiuUtils.uploadByByte(productDTO.getImg(), productDTO.getProductImg());
+        QiNiuUtils.uploadByByte(productDTO.getImage(), productDTO.getProductImg());
     }
 
     /**
@@ -94,20 +94,47 @@ public class ProductImpl extends ServiceImpl<ProductMapper, ProductEntity> imple
     public void updateProduct(ProductDTO productDTO) throws BusinessException {
         //生成uuid
         String uuid=null;
-        if(productDTO.getImg() != null) {
-            uuid = UUID.randomUUID().toString().replace("-", "") +
-                    productDTO.getProductImg().substring(productDTO.getProductImg().lastIndexOf("."));
-            productDTO.setImgUrl(QiNiuUtils.URL + uuid);
+        if (productDTO.getProductImg().length()>0) {
+            if(productDTO.getImage() != null) {
+                uuid = UUID.randomUUID().toString().replace("-", "") +
+                        productDTO.getProductImg().substring(productDTO.getProductImg().lastIndexOf("."));
+                productDTO.setProductImg(uuid);
+            }
         }
         //修改spu
         getBaseMapper().updateById(DozerUtil.map(productDTO,ProductEntity.class));
         //修改sku
-        List<ProductSkuDTO> proSkuList = productDTO.getSkuList();
-        productSkuService.updateBatchById(DozerUtil.mapList(proSkuList,ProductSkuEntity.class));
+        List<ProductSkuEntity> proSkuList = DozerUtil.mapList(productDTO.getSkuList(), ProductSkuEntity.class);
+        productSkuService.updateBatchById(proSkuList);
+
         //上传图片
-        if(productDTO.getImg() != null) {
-            QiNiuUtils.uploadByByte(productDTO.getImg(), uuid);
+        if(productDTO.getImage() != null) {
+            QiNiuUtils.uploadByByte(productDTO.getImage(), uuid);
         }
 
     }
+
+    /**
+     * 查询所有商家商品
+     * @param productDTO 商品信息
+     * @return
+     * @throws BusinessException
+     */
+    @Override
+    public PageResult allList(ProductDTO productDTO) throws BusinessException {
+        Page<ProductBO> page = new Page<>(productDTO.getPageNo(), productDTO.getPageSize());
+        IPage<ProductBO> PageInfo = super.baseMapper.allList(page, DozerUtil.map(productDTO, ProductBO.class));
+        PageInfo.getRecords().forEach(pro -> {
+            pro.setProductImg(QiNiuUtils.URL + pro.getProductImg());
+        });
+        return PageResult.pageInfo(PageInfo.getCurrent(), PageInfo.getPages(), DozerUtil.mapList(PageInfo.getRecords(), ProductDTO.class));
+    }
+
+    @Override
+    public ProductDTO findListByProId(Integer id) throws BusinessException {
+        ProductBO productBO = super.baseMapper.findListByProId(id);
+        return DozerUtil.map(productBO, ProductDTO.class);
+    }
+
+
 }

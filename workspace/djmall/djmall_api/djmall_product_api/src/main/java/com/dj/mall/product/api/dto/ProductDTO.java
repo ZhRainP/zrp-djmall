@@ -48,7 +48,28 @@ public class ProductDTO implements Serializable {
      */
     private Integer productStatus;
 
-    private byte[] img;
+    /**
+     * 商品图片字节
+     */
+    private byte[] image;
 
+    /**
+     * 商品图图片地址
+     */
     private String imgUrl;
+
+    /**
+     * sku价格
+     */
+    private double skuPrice;
+
+    /**
+     * sku库存
+     */
+    private Integer skuCount;
+
+    /**
+     * sku折扣
+     */
+    private Integer skuRate;
 }

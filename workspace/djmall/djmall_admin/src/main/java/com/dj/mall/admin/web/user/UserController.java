@@ -2,6 +2,7 @@ package com.dj.mall.admin.web.user;
 
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.alibaba.fastjson.JSONObject;
 import com.dj.mall.admin.vo.resource.ResourceVOResp;
 import com.dj.mall.admin.vo.user.UserVoReq;
 import com.dj.mall.admin.vo.user.UserVoResp;
@@ -24,7 +25,11 @@ import org.springframework.web.bind.annotation.*;
 
 
 import javax.servlet.http.HttpSession;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 @RestController
@@ -189,5 +194,79 @@ public class UserController {
         userApi.updatePwd(DozerUtil.map(userVoReq, UserDto.class));
         return new ResultModel().success();
     }
+
+    /**
+     * 发送短信
+     * @param phone
+     * @param verifyCode
+     * @param checkVerifyCode
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("sendSms")
+    public ResultModel sendSms (String phone, String verifyCode, @SessionAttribute(CodeConstant.SESSION_VERIFY_CODE) String checkVerifyCode) throws Exception{
+        //参数验证
+        Assert.hasText(phone, "手机号是必填项哦(●'◡'●)");
+        Assert.hasText(verifyCode, "请您填写验证码呢，不然发不出去短信的(づ￣ 3￣)づ");
+        //图形验证码验证
+        Assert.state(verifyCode.equals(checkVerifyCode), "验证码不正确，请您再仔细看看呢(づ￣ 3￣)づ");
+        //短信发送流程
+        LocalDate day = LocalDate.now();
+        String key = day + CacheConstant.SMS_KEY;
+        String fileKey = "FORGET_PWD" + phone;
+        HashOperations hashOperations = redisTemplate.opsForHash();
+        JSONObject jsonObject = (JSONObject) hashOperations.get(key, fileKey);
+        if(jsonObject == null){
+            jsonObject  = new JSONObject();
+            jsonObject.put("code", "1234");
+            jsonObject.put("timeOut", LocalDateTime.now().plus(90, ChronoUnit.SECONDS));
+            jsonObject.put("count", 1);
+            hashOperations.put(key, fileKey, jsonObject);
+            redisTemplate.expire(key,1, TimeUnit.DAYS);
+        }else{
+            //次数验证
+            if(jsonObject.getInteger("count") >= 5){
+                return new ResultModel().error("今日次数已达上限，谢谢您的支持");
+            }
+            jsonObject.put("code", "1234");
+            jsonObject.put("timeOut", LocalDateTime.now().plus(90, ChronoUnit.SECONDS));
+            jsonObject.put("count", jsonObject.getInteger("count")+1);
+            hashOperations.put(key, fileKey, jsonObject);
+        }
+        return new ResultModel().success();
+    }
+
+    /**
+     * 忘记密码
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("forgetPwd")
+    public ResultModel forgetPwd (UserVoReq userVoReq, String smsCode) throws Exception {
+        //非空
+        Assert.hasText(userVoReq.getPhone(), "手机号不能为空");
+        Assert.state(userVoReq.getPassword().equals(userVoReq.getConfirmPassword()), "两次密码不一致");
+        //短信验证码验证
+        LocalDate day = LocalDate.now();
+        String key = day + CacheConstant.SMS_KEY;
+        String fileKey = "FORGET_PWD" + userVoReq.getPhone();
+        HashOperations hashOperations = redisTemplate.opsForHash();
+        JSONObject jsonObject = (JSONObject) hashOperations.get(key, fileKey);
+        if(jsonObject == null) {
+            return new ResultModel().error("请先发送验证码");
+        }
+        LocalDateTime timeOut = LocalDateTime.parse(jsonObject.getString("timeOut"));
+        if(LocalDateTime.now().isAfter(timeOut)){
+            return new ResultModel().error("验证码超时，请重新发送");
+        }
+        //验证码是否匹配
+        if(!smsCode.equals(jsonObject.getString("code"))){
+            return new ResultModel().error("验证码有误，请检查呢 (づ￣ 3￣)づ");
+        }
+        //修改密码
+        UserDto userDto = userApi.findUserByPhone(DozerUtil.map(userVoReq, UserDto.class));
+        return new ResultModel().success();
+    }
+
 }
 

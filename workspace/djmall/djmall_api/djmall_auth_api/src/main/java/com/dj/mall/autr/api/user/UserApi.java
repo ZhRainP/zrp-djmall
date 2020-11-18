@@ -1,6 +1,7 @@
 package com.dj.mall.autr.api.user;
 
 import com.dj.mall.autr.api.dto.user.UserDto;
+import com.dj.mall.autr.api.dto.user.UserTokenDTO;
 import com.dj.mall.common.base.BusinessException;
 
 import java.util.List;
@@ -87,4 +88,20 @@ public interface UserApi {
      * @throws BusinessException
      */
     void updatePwd(UserDto userDto) throws BusinessException;
+
+    /**
+     * 查找用户手机号，验证
+     * @param userDto
+     * @return
+     * @throws BusinessException
+     */
+    UserDto findUserByPhone(UserDto userDto) throws BusinessException;
+
+    /**
+     * 普通用户登陆
+     * @param username 用户名
+     * @param password 密码
+     * @return
+     */
+    UserTokenDTO loginToken(String username, String password);
 }

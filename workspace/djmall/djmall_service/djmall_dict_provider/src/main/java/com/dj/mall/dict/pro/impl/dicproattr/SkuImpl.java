@@ -42,6 +42,11 @@ public class SkuImpl extends ServiceImpl<SkuMapper, SkuEntity> implements SkuApi
         return DozerUtil.mapList(super.baseMapper.skuList(), SkuDTO.class);
     }
 
+    /**
+     * 添加sku
+     * @param skuDTO sku信息
+     * @throws BusinessException
+     */
     @Override
     public void insertSku(SkuDTO skuDTO) throws BusinessException {
         QueryWrapper wrapper = new QueryWrapper<>();
@@ -58,6 +63,12 @@ public class SkuImpl extends ServiceImpl<SkuMapper, SkuEntity> implements SkuApi
         super.saveBatch(list);
     }
 
+    /**
+     * 根据商品类型查找sku
+     * @param productType 商品类型
+     * @return
+     * @throws BusinessException
+     */
     @Override
     public List<SkuDTO> findSku(String productType) throws BusinessException {
         List<SkuBO> skuBOList = super.baseMapper.findSku(productType);

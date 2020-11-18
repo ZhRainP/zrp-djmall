@@ -41,5 +41,19 @@ public class ProductBO {
      */
     private Integer productStatus;
 
+    /**
+     * sku价格
+     */
+    private double skuPrice;
+
+    /**
+     * sku库存
+     */
+    private Integer skuCount;
+
+    /**
+     * sku折扣
+     */
+    private Integer skuRate;
 
 }

@@ -22,7 +22,11 @@
                 for (var i = 0; i < freight.length; i++) {
                     html += "<tr>";
                     html += "<th>"+freight[i].logisticsCompany+"</th>"
-                    html += "<th>"+freight[i].freight+"</th>"
+                    if(freight[i].freight == 0){
+                        html += "<th>包邮</th>"
+                    }else if (freight[i].freight > 0){
+                        html += "<th>"+freight[i].freight+"</th>"
+                    }
                     html += "<th><input type='button' value='修改' onclick='toUpdate("+freight[i].id+")' class='btn btn-primary'/>"
                     html += "</tr>"
                 }

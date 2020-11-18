@@ -14,4 +14,9 @@ public interface CacheConstant {
      * 字典固定key
      */
     String DICT_ALL_KEY = "DICT_KEY";
+
+    /**
+     * 短信验证码
+     */
+    String SMS_KEY = "_SMS" ;
 }

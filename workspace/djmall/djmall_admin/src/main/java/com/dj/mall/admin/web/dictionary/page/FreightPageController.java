@@ -33,6 +33,12 @@ public class FreightPageController {
         return "freight/freight_list";
     }
 
+    /**
+     * 去修改运费
+     * @param id 运费id
+     * @param model
+     * @return
+     */
     @RequestMapping("toUpdate")
     public String toUpdate(Integer id, ModelMap model) {
         FreightDTO freightDTO = freightApi.findFreight(id);

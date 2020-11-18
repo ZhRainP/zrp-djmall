@@ -66,12 +66,23 @@ public class ResourceApiImpl extends ServiceImpl<ResourceMapper, ResourceEntity>
         super.updateById(DozerUtil.map(map, ResourceEntity.class));
     }
 
+    /**
+     * 根据ID查找资源列表
+     * @param id 资源id
+     * @return
+     * @throws BusinessException
+     */
     @Override
     public List<ResourceDTO> findAllList(Integer id) throws BusinessException {
         List<ResourceBo> resourceList = resourceMapper.findAllList(id);
         return DozerUtil.mapList(resourceList, ResourceDTO.class);
     }
 
+    /**
+     * 根据资源ID删除资源
+     * @param resourceDTO 资源信息
+     * @throws BusinessException
+     */
     @Override
     @Transactional(rollbackFor = RuntimeException.class)
     public void deleteResource(ResourceDTO resourceDTO) throws BusinessException {

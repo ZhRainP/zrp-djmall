@@ -36,13 +36,13 @@
                     html += "<td><input type='checkbox' value='" + proSku[i].id +","
                         + proSku[i].skuCount + ","+ i +"'/></td>";
                     html += "<td><input type='text' value='"+ proSku[i].skuName +"' id='skuName_"+i+"'" +
-                        " readonly='readonly' name='list["+i+"].skuName'/></td>";
+                        " readonly='readonly' name='skuList["+i+"].skuName'/></td>";
                     html += "<td><input type='text' value='"+ proSku[i].skuCount +"' id='skuCount_"+i+"'" +
-                        " readonly='readonly' name='list["+i+"].skuCount'/></td>";
+                        " readonly='readonly' name='skuList["+i+"].skuCount'/></td>";
                     html += "<td><input type='text' value='"+ proSku[i].skuPrice +"' id='skuPrice_"+i+"'" +
-                        " readonly='readonly' name='list["+i+"].skuPrice'/></td>";
+                        " readonly='readonly' name='skuList["+i+"].skuPrice'/></td>";
                     html += "<td><input type='text' value='"+ proSku[i].skuRate +"' id='skuRate_"+i+"'" +
-                        " readonly='readonly' name='list["+i+"].skuRate'/></td>";
+                        " readonly='readonly' name='skuList["+i+"].skuRate'/></td>";
                     if(proSku[i].isDefault == 0){
                         html += "<td>是</td>";
                     }else{
@@ -213,7 +213,7 @@
 </script>
 
 <form id="fmt">
-    <input type="hidden" value="${product.id}" name="productId">
+    <input type="hidden" value="${product.id}" name="id">
     <div class="layui-form-item">
         <label class="layui-form-label">名称：</label>
         <div class="layui-input-block">

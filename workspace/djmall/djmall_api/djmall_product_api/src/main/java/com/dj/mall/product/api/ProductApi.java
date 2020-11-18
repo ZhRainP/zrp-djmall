@@ -34,4 +34,20 @@ public interface ProductApi {
      * @throws BusinessException
      */
     void updateProduct(ProductDTO productDTO) throws BusinessException;
+
+    /**
+     * 全部商家商品
+     * @param productDTO
+     * @return
+     * @throws BusinessException
+     */
+    PageResult allList(ProductDTO productDTO) throws BusinessException;
+
+    /**
+     * 根据ID查商品详情
+     * @param id 商品ID
+     * @return
+     * @throws BusinessException
+     */
+    ProductDTO findListByProId(Integer id) throws BusinessException;
 }

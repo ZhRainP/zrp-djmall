@@ -105,6 +105,12 @@ public class DictProAttrController {
         return new ResultModel().success(DozerUtil.mapList(skuList, SkuDTO.class));
     }
 
+    /**
+     * 添加sku
+     * @param skuVOReq sku信息
+     * @return
+     * @throws Exception
+     */
     @RequestMapping("insertSku")
     public ResultModel insertSku (SkuVOReq skuVOReq)  throws Exception{
         SkuDTO skuDTO = DozerUtil.map(skuVOReq, SkuDTO.class);
