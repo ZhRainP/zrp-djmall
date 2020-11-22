@@ -4,6 +4,8 @@ import com.dj.mall.common.base.BusinessException;
 import com.dj.mall.common.base.PageResult;
 import com.dj.mall.product.api.dto.ProductDTO;
 
+import java.util.List;
+
 public interface ProductApi {
     /**
      * 添加商品
@@ -50,4 +52,11 @@ public interface ProductApi {
      * @throws BusinessException
      */
     ProductDTO findListByProId(Integer id) throws BusinessException;
+
+    /**
+     *  去购物车
+     * @return
+     * @throws BusinessException
+     */
+    List<ProductDTO> findSkuProductList(Integer id) throws BusinessException;
 }

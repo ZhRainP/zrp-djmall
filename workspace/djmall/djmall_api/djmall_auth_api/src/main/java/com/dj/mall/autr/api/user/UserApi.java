@@ -103,5 +103,13 @@ public interface UserApi {
      * @param password 密码
      * @return
      */
-    UserTokenDTO loginToken(String username, String password);
+    UserTokenDTO loginToken(String username, String password) throws BusinessException;
+
+    /**
+     * 个人信息管理
+     * @throws BusinessException
+     */
+    void updateUserPim(UserDto userDto) throws BusinessException;
+
+
 }

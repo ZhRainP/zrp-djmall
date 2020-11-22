@@ -293,6 +293,20 @@ public class UserApiImpl extends ServiceImpl<UserMapper, UserEntity> implements 
         return userTokenDTO;
     }
 
+    /**
+     * 个人信息管理
+     * @param userDto
+     * @throws BusinessException
+     */
+    @Override
+    public void updateUserPim(UserDto userDto) throws BusinessException {
+        UpdateWrapper userWrapper = new UpdateWrapper<>();
+        userWrapper.set("nick_name", userDto.getNickName());
+        userWrapper.set("mail", userDto.getMail());
+        userWrapper.set("sex", userDto.getSex());
+        userWrapper.eq("id", userDto.getId());
+        super.update(userWrapper);
+    }
 
 
 }

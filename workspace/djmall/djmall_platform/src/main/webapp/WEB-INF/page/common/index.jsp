@@ -22,6 +22,7 @@
         if(check_login()){
             $("#aa").html(cookie.get("NICK_NAME"));
             $("#aa").attr("href", "<%=request.getContextPath()%>/mall/toIndex?TOKEN=" + getToken());
+            $("#aa").attr("href","<%=request.getContextPath()%>/user/toMyCenter?TOKEN="+ getToken());
         }
     })
 
@@ -44,10 +45,14 @@
         });
     }
 
+    /* 加载商品主类 */
     var pageNo = 1;
     $(function(){
         search();
+        loadProductType();
     })
+
+    /*加载商品信息*/
     function search(){
         $.get(
             "<%=request.getContextPath()%>/user/productList",
@@ -95,11 +100,27 @@
         search();
     }
 
+    /* 去购物车 */
+    function toMyCar(){
+        if (check_login()) {
+            window.location.href = "<%=request.getContextPath()%>/product/toCar?TOKEN=" + getToken();
+        } else {
+            layer.open({
+                type: 2,
+                title: '登录',
+                shadeClose: true,
+                shade: 0.8,
+                anim: 1,
+                area: ['380px', '90%'],
+                content: "<%=request.getContextPath() %>/user/toLogin" //iframe的url
+            });
+        }
+    }
 </script>
 <body>
 <ul class="layui-nav layui-bg-blue" align="right">
     <li class="layui-nav-item">
-        <a href="">首页</a>
+        <a href="<%=request.getContextPath()%>/mall/toIndex">首页</a>
     </li>
     <li class="layui-nav-item">
         <a id="aa" href="javascript:toLogin()">登陆</a>
@@ -108,9 +129,27 @@
         <a href="javascript:toAdd()">注册</a>
     </li>
     <li class="layui-nav-item">
-        <a href="">我的购物车</a>
+        <a href="javascript:toMyCar()">我的购物车</a>
     </li>
 </ul>
+
+<div class="layui-container">
+    <form class="layui-form1">
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <input type="text" name="productKeyWords" lay-verify="title" autocomplete="off" placeholder="搜索"
+                       class="layui-input"/>
+                价格：<input type="text" name="startPrice"/>~<input type="text" name="endPrice"/>
+                <div id="productType">
+                </div>
+                <button type="button" onclick="page(1)">search</button>
+            </div>
+        </div>
+    </form>
+    <div class="layui-row layui-col-space30" id="show"></div>
+    <div class="layui-flow-more"></div>
+</div>
+
 
 <table class="layui-table" lay-skin="line" lay-size="sm">
     <tr>
@@ -127,5 +166,8 @@
     <tbody id="tb"></tbody>
 </table>
 <div id = "page"></div>
+
+
+
 </body>
 </html>

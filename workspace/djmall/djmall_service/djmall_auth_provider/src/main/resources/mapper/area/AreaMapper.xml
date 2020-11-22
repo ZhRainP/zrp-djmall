@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace:用于隔离SQL全局唯一（采用接口和XML开发时为接口的全路径）
+ -->
+<mapper namespace="com.dj.mall.auth.pro.mapper.area.AreaMapper">
+	<select id="cascadeList" resultType="com.dj.mall.auth.pro.bo.AreaBo">
+		SELECT
+		*
+		FROM
+		djmall_area
+		where
+		area_parent_id = #{areaParentId}
+	</select>
+</mapper>

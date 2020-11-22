@@ -8,6 +8,8 @@ import com.dj.mall.product.pro.entity.ProductEntity;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.dao.DataAccessException;
 
+import java.util.List;
+
 public interface ProductMapper extends BaseMapper<ProductEntity> {
     /**
      * 商品列表
@@ -26,4 +28,11 @@ public interface ProductMapper extends BaseMapper<ProductEntity> {
     IPage<ProductBO> allList(Page<ProductBO> page, @Param("productBO")ProductBO productBO) throws DataAccessException;
 
     ProductBO findListByProId(Integer id) throws DataAccessException;
+
+    /**
+     * 去购物车
+     * @return
+     * @throws DataAccessException
+     */
+    List<ProductBO> findSkuProductList(Integer id) throws DataAccessException;
 }

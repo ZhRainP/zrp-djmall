@@ -136,5 +136,16 @@ public class ProductImpl extends ServiceImpl<ProductMapper, ProductEntity> imple
         return DozerUtil.map(productBO, ProductDTO.class);
     }
 
+    /**
+     * 去购物车
+     * @return
+     * @throws BusinessException
+     */
+    @Override
+    public List<ProductDTO> findSkuProductList(Integer id) throws BusinessException {
+        List<ProductBO> productBOS = super.baseMapper.findSkuProductList(id);
+        return DozerUtil.mapList(productBOS, ProductDTO.class);
+    }
+
 
 }

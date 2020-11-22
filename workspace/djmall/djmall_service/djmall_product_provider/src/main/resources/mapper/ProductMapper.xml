@@ -46,4 +46,10 @@
         left join djmall_product_sku dps on p.id = dps.product_id
         where dps.is_default = 0 and p.id = #{id}
     </select>
+    <select id="findSkuProductList" resultType="com.dj.mall.product.pro.bo.ProductBO">
+        select * from djmall_shop_car sc
+        left join djmall_mall_product dmp on sc.product_id = dmp.id
+        left join djmall_product_sku dps on sc.sku_id = dps.id
+        where sc.user_id = #{id}
+    </select>
 </mapper>

@@ -72,4 +72,8 @@ public class ProductDTO implements Serializable {
      * sku折扣
      */
     private Integer skuRate;
+    private String skuName;
+    private Integer isDefault;
+    private Integer count;
+    private Integer checkStatus;
 }

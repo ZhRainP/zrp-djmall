@@ -122,6 +122,11 @@ public class UserPageController {
         return "user/forget_pwd";
     }
 
+    /**
+     * 获取图片
+     * @param request
+     * @param response
+     */
     @RequestMapping("/getVerifyCode")
     public void getVerifyCode(HttpServletRequest request, HttpServletResponse response) {
         response.setHeader("Expires", "-1");
