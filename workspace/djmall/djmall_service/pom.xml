@@ -16,6 +16,7 @@
         <module>djmall_cmpt_provider</module>
         <module>djmall_dict_provider</module>
         <module>djmall_product_provider</module>
+        <module>djmall_order_provider</module>
     </modules>
 
     <dependencies>

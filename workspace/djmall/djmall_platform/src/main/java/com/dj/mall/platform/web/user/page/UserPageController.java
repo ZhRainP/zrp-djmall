@@ -1,15 +1,25 @@
 package com.dj.mall.platform.web.user.page;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.dj.mall.autr.api.address.AddressApi;
+import com.dj.mall.autr.api.dto.address.AddressDTO;
+import com.dj.mall.autr.api.dto.shopcar.CarDTO;
 import com.dj.mall.autr.api.dto.user.UserDto;
+import com.dj.mall.autr.api.shopcar.CarApi;
 import com.dj.mall.autr.api.user.UserApi;
+import com.dj.mall.common.util.DozerUtil;
 import com.dj.mall.common.util.PasswordSecurityUtil;
+import com.dj.mall.dict.api.dictionary.DictionaryApi;
+import com.dj.mall.dict.api.dto.dictionary.DictionaryDTO;
 import com.dj.mall.platform.vo.UserTokenReq;
+import com.dj.mall.platform.vo.shopcar.CarVOReq;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.util.List;
 
 @Controller
 @RequestMapping("user")
@@ -19,6 +29,12 @@ public class UserPageController {
     private RedisTemplate redisTemplate;
     @Reference
     private UserApi userApi;
+    @Reference
+    private CarApi carApi;
+    @Reference
+    private AddressApi addressApi;
+    @Reference
+    private DictionaryApi dictionaryApi;
 
     /**
      * 用户去登陆页面
@@ -85,6 +101,28 @@ public class UserPageController {
         UserDto userDto1 = userApi.findUserById(userDto.getId());
         model.put("user", userDto1);
         return "mall/my_pim";
+    }
+
+    /**
+     * 根据购物车ID查询已勾选商品
+     * @param TOKEN　token
+     * @param userTokenReq　用户信息
+     * @param model
+     * @return
+     */
+    @RequestMapping("toSet")
+    public String toSet (String TOKEN, UserTokenReq userTokenReq, ModelMap model) {
+        UserDto userDto = (UserDto) redisTemplate.opsForValue().get("TOKEN_" + TOKEN);
+        userTokenReq.setUserId(userDto.getId());
+        UserDto userDto1 = userApi.findUserById(userDto.getId());
+        model.put("user", userDto1);
+        List<CarDTO> carDTO = carApi.findCarById(userDto.getId());
+        model.put("car", carDTO);
+        List<AddressDTO> list = addressApi.findAddressList(userDto.getId());
+        model.put("address", list);
+        List<DictionaryDTO> dictionaryDTOList = dictionaryApi.findDictByPCode("PAY_TYPE");
+        model.put("dictList", DozerUtil.mapList(dictionaryDTOList, DictionaryDTO.class));
+        return "mall/set_list";
     }
 }
  

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+	namespace:用于隔离SQL全局唯一（采用接口和XML开发时为接口的全路径）
+ -->
+<mapper namespace="com.dj.mall.order.pro.mapper.OrderMapper">
+
+    <select id="findCarOrderByUserId" resultType="com.dj.mall.order.pro.bo.CarOrderBO">
+        SELECT
+            usc.id AS shop_car_id,
+            usc.product_id,
+            usc.sku_id,
+            usc.count,
+            ps.sku_count,
+            ps.sku_price,
+            ps.sku_rate,
+            ps.sku_name
+        FROM
+            djmall_shop_car usc
+        LEFT JOIN djmall_product_sku ps ON usc.sku_id = ps.id
+        LEFT JOIN djmall_mall_product p ON ps.product_id = p.id
+        WHERE
+            usc.user_id = #{id}
+          AND usc.check_status = 1
+    </select>
+</mapper>

@@ -28,4 +28,5 @@ public class CarResp {
      * 是否勾选
      */
     private Integer checkStatus;
+
 }

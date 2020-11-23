@@ -12,8 +12,10 @@
 </head>
 
 <script type="text/javascript">
+
     $(function (){
         money();
+
     })
     //点击复选框后生成金额信息
     function money() {
@@ -70,62 +72,6 @@
         money();
     }
 
-
-    <%--/*删除选中的*/--%>
-    <%--function del() {--%>
-    <%--    var token = getToken();--%>
-    <%--    //获取checkbox中被选中的值--%>
-    <%--    obj = document.getElementsByName("id");--%>
-    <%--    check_val = [];--%>
-    <%--    for (i = 0; i < obj.length; i++) {--%>
-    <%--        if (obj[i].checked) {--%>
-    <%--            check_val.push(obj[i].value)--%>
-    <%--        }--%>
-    <%--    }--%>
-    <%--    token_post("<%=request.getContextPath()%>/delShopCar?ids=" + check_val,--%>
-    <%--        {},--%>
-    <%--        function (data) {--%>
-    <%--            if (data.code == 200) {--%>
-    <%--                layer.msg(data.msg)--%>
-    <%--                parent.location.href = "<%=request.getContextPath()%>/toMyShopCar?TOKEN=" + token;--%>
-    <%--            }--%>
-    <%--        })--%>
-
-    <%--}--%>
-
-
-    //商品数量的加减
-    function add(carId) {
-        var num = $("#num" + carId).val(); //购买数量
-        var count = $("#count" + carId).val() * 1;
-
-        if (num >= 200) {
-            layer.msg("不能超过200");
-            return;
-        }
-        if (num >= count) {
-            layer.msg("不能超过库存")
-            return;
-        }
-        //重新赋值
-        num++;
-        findSkuCount(carId, num)
-    }
-
-    //商品数量的加减
-    function sub(carId) {
-        //得到文本框
-        var num = $("#num" + carId).val(); //购买数量
-        if (num <= 1) {
-            layer.msg("不能低于1");
-            return;
-        }
-
-        //重新赋值
-        num--;
-        findSkuCount(carId, num)
-    }
-
     /*后悔了不想要了*/
     function delShopCar(id) {
         $.post("<%=request.getContextPath()%>/user/delCarByCarId?carId="+id,function(result){
@@ -137,12 +83,18 @@
         <%--location.reload();--%>
     }
 
+    /* 返回首页 */
     function banck () {
         window.location.href = "<%=request.getContextPath()%>/mall/toIndex"
+    }
+
+    function toSet () {
+        location.href = "<%=request.getContextPath()%>/user/toSet?TOKEN="+getToken();
     }
 </script>
 
 <body>
+<form id = "fm">
 <input type="button" value = "返回" onclick="banck()" class="layui-btn layui-btn-xs"/>
 全选：<input type="checkbox" onclick="checkAll()" id="quanxuan">&nbsp;&nbsp;&nbsp;<input type="button" onclick="del()"
                                                                                       value="删除选中商品"
@@ -193,4 +145,5 @@
 <input type="button" value="去结算" onclick="toSet()"
        class="layui-btn layui-btn-primary layui-btn-radius"><br><span></span><br>
 </body>
+</form>
 </html>

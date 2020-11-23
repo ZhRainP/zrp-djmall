@@ -1,11 +1,11 @@
-package com.dj.mall.auth.pro.bo;
+package com.dj.mall.order.pro.bo;
 
 import lombok.Data;
 
-import java.util.List;
+import java.math.BigDecimal;
 
 @Data
-public class CarBO {
+public class CarOrderBO {
     /**
      * 购物车ID
      */
@@ -50,7 +50,7 @@ public class CarBO {
     /**
      * sku价格
      */
-    private double skuPrice;
+    private BigDecimal skuPrice;
 
     /**
      * sku库存

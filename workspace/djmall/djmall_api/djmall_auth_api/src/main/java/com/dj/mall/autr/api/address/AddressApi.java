@@ -21,4 +21,12 @@ public interface AddressApi {
      * @throws BusinessException
      */
     void addAddress(AddressDTO addressDTO) throws BusinessException;
+
+    /**
+     * 根据地址ID查询地址
+     * @param addressId 地址ID
+     * @return
+     * @throws BusinessException
+     */
+    AddressDTO findAddress(Integer addressId) throws BusinessException;
 }

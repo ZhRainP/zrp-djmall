@@ -2,6 +2,8 @@ package com.dj.mall.platform.vo.shopcar;
 
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 public class CarVOReq {
     /**
@@ -28,4 +30,5 @@ public class CarVOReq {
      * 是否勾选
      */
     private Integer checkStatus;
+    private List<Integer> ids;
 }

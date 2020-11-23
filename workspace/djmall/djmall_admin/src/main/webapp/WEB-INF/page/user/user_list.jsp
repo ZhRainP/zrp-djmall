@@ -183,23 +183,9 @@
             管理员：<input type="radio" value="1" name="roleName"/>
         </td>
     </tr>
-    <tr>
-        <%--<td>性别</td>
-        <td>
-            男<input type="radio"  name="sex" value="1"/>
-            女<input type="radio"  name="sex" value="2"/>
-        </td>--%><div id = "sex">性别：</div>
+    <tr><div id = "sex">性别：</div>
     </tr>
     <tr>
-        <%--<td>状态</td>
-        <td>
-            <select name="status">
-                <option value="aaaa" >请选择</option>
-                <option value="ACTIVE">正常</option>
-                <option value="NOT_ACTIVE">未激活</option>
-            </select>
-        </td>--%>
-
         状态：<select id = "status" name = "status">
             <option value="aaaa" >请选择</option>
         </select>

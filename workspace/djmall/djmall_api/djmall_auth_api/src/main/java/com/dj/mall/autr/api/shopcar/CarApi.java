@@ -3,6 +3,8 @@ package com.dj.mall.autr.api.shopcar;
 import com.dj.mall.autr.api.dto.shopcar.CarDTO;
 import com.dj.mall.common.base.BusinessException;
 
+import java.util.List;
+
 public interface CarApi {
     /**
      * 添加购物车
@@ -24,4 +26,13 @@ public interface CarApi {
      * @throws BusinessException
      */
     void delCarByCarId(Integer carId) throws BusinessException;
+
+
+
+    /**
+     * 根据购物车ID查询已勾选的商品
+     * @param id 购物车ID
+     * @return
+     */
+    List<CarDTO> findCarById(Integer id) throws BusinessException;
 }

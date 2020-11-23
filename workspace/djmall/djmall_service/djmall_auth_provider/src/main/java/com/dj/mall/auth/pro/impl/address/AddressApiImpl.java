@@ -38,4 +38,12 @@ public class AddressApiImpl extends ServiceImpl<AddressMapper, AddressEntity> im
     public void addAddress(AddressDTO addressDTO) throws BusinessException {
         super.save(DozerUtil.map(addressDTO, AddressEntity.class));
     }
+
+    @Override
+    public AddressDTO findAddress(Integer addressId) throws BusinessException {
+        QueryWrapper wrapper = new QueryWrapper<>();
+        wrapper.eq("id", addressId);
+        AddressEntity addressEntity = super.getOne(wrapper);
+        return DozerUtil.map(addressEntity, AddressDTO.class);
+    }
 }

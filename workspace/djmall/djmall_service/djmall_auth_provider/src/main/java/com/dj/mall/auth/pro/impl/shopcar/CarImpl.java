@@ -4,12 +4,15 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.dj.mall.auth.pro.bo.CarBO;
 import com.dj.mall.auth.pro.entity.shopcar.CarEntity;
 import com.dj.mall.auth.pro.mapper.carshop.CarMapper;
 import com.dj.mall.autr.api.dto.shopcar.CarDTO;
 import com.dj.mall.autr.api.shopcar.CarApi;
 import com.dj.mall.common.base.BusinessException;
 import com.dj.mall.common.util.DozerUtil;
+
+import java.util.List;
 
 @Service
 public class CarImpl extends ServiceImpl<CarMapper, CarEntity> implements CarApi {
@@ -60,5 +63,17 @@ public class CarImpl extends ServiceImpl<CarMapper, CarEntity> implements CarApi
     @Override
     public void delCarByCarId(Integer carId) throws BusinessException {
         super.removeById(carId);
+    }
+
+    /**
+     * 根据购物车ID查询已勾选商品
+     * @param id 购物车ID
+     * @return
+     * @throws BusinessException
+     */
+    @Override
+    public List <CarDTO> findCarById(Integer id) throws BusinessException {
+        List<CarBO> carBOList = super.baseMapper.findCarById(id);
+        return DozerUtil.mapList(carBOList, CarDTO.class);
     }
 }
