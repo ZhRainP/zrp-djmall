@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dj.p2p.mapper.BillMapper">
+
+
+    <!-- 返回所有待还金额 -->
+    <select id="returnAllRepayPrice" resultType="com.dj.p2p.pojo.financial.Bill">
+        SELECT
+            sum(pb.principal_and_interest) as all_re_pay_price
+        FROM
+            p2p_bill pb
+        WHERE
+            pb.bill_status = 'NO_REPAY'
+    </select>
+
+    <!-- 待还金额 -->
+    <select id="getWaitPrice" resultType="com.dj.p2p.pojo.financial.Bill">
+        SELECT
+            sum(principal_and_interest) as all_repay_price
+        FROM
+            p2p_subject ps
+        LEFT JOIN p2p_bill pb ON ps.id = pb.subject_id
+        WHERE
+            ps.borrower_id = #{id}
+        AND pb.bill_status = 'NO_REPAY'
+    </select>
+</mapper>

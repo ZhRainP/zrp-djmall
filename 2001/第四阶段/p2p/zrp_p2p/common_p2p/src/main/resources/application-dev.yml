@@ -1,0 +1,38 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: '000000'
+    url: jdbc:mysql://127.0.0.1:3306/zrp_p2p?characterEncoding=UTF-8&useOldAliasMetadataBehavior=true&useSSL=false&serverTimezone=UTC
+
+# Mybatis-plus
+mybatis-plus:
+  type-aliases-package: com.dj.p2p.pojo # 类别名
+  configuration:
+    map-underscore-to-camel-case: true # 驼峰映射
+  global-config:
+    db-config:
+      table-prefix: p2p_
+
+#ribbon的超时时间
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000
+# 日志
+logging:
+  level:
+    com.dj.p2p.mapper:
+      debug
+swagger:
+  enabled: true
+#断路器配置
+circuitBreaker:
+  # 请求总数下限
+  requestVolumeThreshold: 20
+  # 休眠时间窗
+  sleepWindowInMilliseconds: 3000
+  # 错误百分比下限
+  errorThresholdPercentage: 50
+feign:
+  hystrix:
+    enabled: true

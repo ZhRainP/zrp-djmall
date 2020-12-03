@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+	namespace:用于隔离SQL全局唯一（采用接口和XML开发时为接口的全路径）
+ -->
+<mapper namespace="com.dj.p2p.mapper.UserMapper">
+    <select id="userInformationList" resultType="com.dj.p2p.user.User">
+        SELECT
+            u.`status`,
+            u.phone,
+            ui.user_name,
+            ui.open_status,
+            MAX(ul.login_time) AS loginTimeShow,
+            count(ul.user_id) AS loginCount
+        FROM
+            p2p_user u
+        LEFT JOIN p2p_user_detail ui ON u.id = ui.user_id
+        LEFT JOIN p2p_user_login ul ON ul.user_id = u.id
+        WHERE
+            ui.account_type IN ('BORROWER', 'INVESTOR')
+        GROUP BY
+            ul.user_id
+        ORDER BY
+            ul.login_time
+    </select>
+</mapper>

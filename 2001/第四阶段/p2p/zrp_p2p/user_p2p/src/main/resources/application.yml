@@ -1,0 +1,20 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: user-service #服务名
+  profiles:
+    active: dev
+  redis:
+    host: localhost
+    database: 3
+    port: 6379
+
+#连接注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+  instance:
+    prefer-ip-address: true  #支持域名直接解析ip

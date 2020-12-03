@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: "000000"
+    url: jdbc:mysql://localhost:3306/p2p?characterEncoding=UTF-8&useOldAliasMetadataBehavior=true&useSSL=false
+#ribbon的超时时间
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000
+
+# Mybatis-plus
+mybatis-plus:
+  type-aliases-package: com.dj.p2p.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+
+#日志
+logging:
+  level:
+    com.dj.p2p.mapper:
+      debug
+
+swagger:
+  enabled: true
+

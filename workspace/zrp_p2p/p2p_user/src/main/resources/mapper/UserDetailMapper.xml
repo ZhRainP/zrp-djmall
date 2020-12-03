@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+	namespace:用于隔离SQL全局唯一（采用接口和XML开发时为接口的全路径）
+ -->
+<mapper namespace="com.dj.p2p.mapper.UserDetailMapper">
+    <select id="getSafeCenterList" resultType="com.dj.p2p.user.UserDetail">
+        SELECT
+            ud.virtual_card,
+            ud.user_name,
+            ud.id_card,
+            u.phone,
+            pd.base_name AS approveStatus,
+            pdd.base_name AS openStatus
+        FROM
+            p2p_user_detail ud
+        LEFT JOIN p2p_user u ON ud.user_id = u.id
+        LEFT JOIN p2p_dict pd ON ud.approve_status = pd.`code`
+        LEFT JOIN p2p_dict pdd ON ud.open_status = pdd.`code`
+    </select>
+    <select id="getWithdrawalList" resultType="com.dj.p2p.user.UserDetail">
+        SELECT
+            pud.bank_card,
+            pub.balance
+        FROM
+            p2p_user_detail pud
+                LEFT JOIN p2p_user_balance pub ON pub.user_id = pud.user_id
+        WHERE
+                pud.user_id = #{userId}
+    </select>
+    <select id="findAllBorrower" resultType="com.dj.p2p.user.UserDetail">
+        select ud.id, ud.user_name, ud.id_card
+        from p2p_user_detail ud
+                 left join p2p_dict d on ud.account_type = d.code
+        where ud.account_type = 'BORROWER'
+          and ud.open_status = 'OPENYES';
+    </select>
+    <select id="findBorrowerByUserId" resultType="com.dj.p2p.user.UserDetail">
+        SELECT
+            p.user_name,
+            u.age,
+            u.phone,
+            b.base_name AS education,
+            bb.base_name AS sex,
+            bc.base_name AS marital_status,
+            bd.base_name AS work_experience,
+            be.base_name AS house_property,
+            bf.base_name AS car_property,
+            bg.base_name AS annual_income,
+        bh.base_name as asset_valuation
+        FROM
+            p2p_user_detail p
+        LEFT JOIN p2p_user u  on u.id = p.user_id
+        LEFT JOIN p2p_dict b ON b.`code` = u.education
+        LEFT JOIN p2p_dict bb ON bb.`code` = u.sex
+        LEFT JOIN p2p_dict bc ON bc.`code` = u.marital_status
+        LEFT JOIN p2p_dict bd ON bd.`code` = u.work_experience
+        LEFT JOIN p2p_dict be ON be.`code` = u.house_property
+        LEFT JOIN p2p_dict bf ON bf.`code` = u.car_property
+        LEFT JOIN p2p_dict bg ON bg.`code` = u.annual_income
+        LEFT JOIN p2p_dict bh ON bh.`code` = u.asset_valuation
+        WHERE
+            p.user_id = #{userId}
+    </select>
+</mapper>

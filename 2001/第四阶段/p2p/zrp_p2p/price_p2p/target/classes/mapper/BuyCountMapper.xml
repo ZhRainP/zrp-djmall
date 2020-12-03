@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dj.p2p.mapper.BuyCountMapper">
+
+
+    <!-- 获取投资人投资资金 -->
+    <select id="getInvestorsPrice" resultType="com.dj.p2p.pojo.buycount.BuyCount">
+        SELECT
+            buyer_id,
+        sum(price) as price
+        FROM
+            p2p_buy_count
+        WHERE
+            subject_id = #{subjectId}
+        GROUP BY buyer_id
+    </select>
+
+    <!-- 获取所有金额 -->
+    <select id="getAllPrice" resultType="com.dj.p2p.pojo.buycount.BuyCount">
+        SELECT
+            ps.subject_money as subject_money,
+            ps.year_interest as year_interest,
+            ps.id as subject_id,
+            sum(pbc.price) as price
+        FROM
+            p2p_buy_count pbc
+        LEFT JOIN p2p_subject ps ON pbc.subject_id = ps.id
+        WHERE
+            ps.pro_status = 'REPAY_CENTER_STATUS'
+            and pbc.buyer_id = #{id}
+        GROUP BY
+            pbc.subject_id
+    </select>
+
+    <!-- 总收益 -->
+    <select id="getAllEarningsPrice" resultType="com.dj.p2p.pojo.buycount.BuyCount">
+        SELECT
+            ps.subject_money as subject_money,
+            ps.year_interest as year_interest,
+            ps.id as subject_id,
+            sum(pbc.price) as price
+        FROM
+            p2p_buy_count pbc
+        LEFT JOIN p2p_subject ps ON pbc.subject_id = ps.id
+        WHERE
+            ps.pro_status = 'OVER_STATUS'
+            and pbc.buyer_id = #{id}
+        GROUP BY
+            pbc.subject_id
+    </select>
+
+    <!-- 投资人账单 -->
+    <select id="getInvestorsPriceBySubjectIdAndUserId" resultType="com.dj.p2p.pojo.buycount.BuyCount">
+        SELECT
+            buyer_id,
+            sum(price) AS price,
+            ps.subject_money
+        FROM
+            p2p_buy_count pbc
+        LEFT JOIN p2p_subject ps ON pbc.subject_id = ps.id
+        WHERE
+            subject_id = #{subjectId}
+        AND buyer_id = #{userId}
+    </select>
+
+
+</mapper>

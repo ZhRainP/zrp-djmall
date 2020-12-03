@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dj.p2p.mapper.UserMapper">
+
+    <!-- 获取用户集合 -->
+    <select id="getUserList" resultType="com.dj.p2p.pojo.user.User">
+        SELECT
+            pu.id,
+            poa.real_name,
+            pu.phone,
+            sta.dict_name as user_status_name,
+            lo.dict_name as is_lock,
+            max(plc.login_time)as login_time,
+            count(plc.user_id) as login_count
+        FROM
+            p2p_user pu
+        LEFT JOIN p2p_open_account poa ON pu.id = poa.user_id
+        LEFT JOIN p2p_dict sta ON pu.user_status = sta.`code`
+        LEFT JOIN p2p_dict lo ON lo.`code` = pu.is_lock
+        left join p2p_login_count plc on pu.id = plc.user_id
+        where pu.level in ('BORROWER','INVESTORS')
+        GROUP BY pu.id
+    </select>
+
+    <!-- 根据ID获取用户信息 -->
+    <select id="getUserById" resultType="com.dj.p2p.pojo.user.User">
+        SELECT
+            jpa.virtual_card,
+            jpa.real_name,
+            jpa.id_card,
+            pus.phone,
+            jpa.bank_number
+        FROM
+            p2p_user pus
+        LEFT JOIN p2p_open_account jpa ON pus.id = jpa.user_id
+        WHERE
+            pus.id = ${id}
+    </select>
+
+    <!-- 返回首页页面信息 -->
+    <select id="getHomePageMessage" resultType="com.dj.p2p.pojo.user.User">
+        SELECT
+            count(id) as loginCount
+        FROM
+            p2p_user
+            where level = 'BORROWER' or level = 'INVESTORS'
+    </select>
+
+    <!-- 返回借款人信息 -->
+    <select id="getBorrower" resultType="com.dj.p2p.pojo.openaccount.OpenAccount">
+        SELECT
+            pu.id,
+            poa.real_name,
+            poa.id_card
+        FROM
+            p2p_user pu
+        LEFT JOIN p2p_open_account poa ON pu.id = poa.user_id
+        where pu.`level`='BORROWER'
+    </select>
+</mapper>

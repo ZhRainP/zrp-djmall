@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dj.p2p.mapper.SubjectMapper">
+
+
+    <!-- 返回风控页面信息 -->
+    <select id="riskMessage" resultType="com.dj.p2p.pojo.subject.Subject">
+       SELECT
+            ps.id,
+            ps.subject_no,
+            pt.dict_name as product_type,
+            poa.real_name,
+            ps.subject_money,
+            ps.year_interest,
+            tl.dict_name as time_limit,
+            pas.dict_name as pro_audit_status,
+            ps.raise_money,
+            ps.pro_start_time,
+            ppu.age,
+            edu.dict_name as education,
+            sex.dict_name as sex,
+            mar.dict_name as marriage,
+            wy.dict_name as work_year,
+            hp.dict_name as home_production,
+            car.dict_name as car_production,
+            ppu.assets_valuation,
+            ps.borrow_advice
+        FROM
+            p2p_subject ps
+        LEFT JOIN p2p_open_account poa ON ps.borrower_id = poa.user_id
+        left join p2p_user ppu on ps.borrower_id = ppu.id
+        left join p2p_dict pt on ps.product_type = pt.`code`
+        left join p2p_dict tl on ps.time_limit = tl.`code`
+        left join p2p_dict pas on pas.`code` = ps.pro_audit_status
+        left join p2p_dict sex on sex.`code` = ppu.sex
+        left join p2p_dict edu on edu.`code` = ppu.education
+        left join p2p_dict wy on wy.`code` = ppu.work_year
+        left join p2p_dict mar on mar.`code` = ppu.marriage
+        left join p2p_dict hp on hp.`code` = ppu.car_production
+        left join p2p_dict car on car.`code` = ppu.car_production
+        where 1=1
+        <if test="userId!=null">
+            and ppu.id = #{userId}
+        </if>
+    </select>
+
+    <!-- 返回理财项目页面信息 -->
+    <select id="returnFinancialProjectMessage" resultType="com.dj.p2p.pojo.subject.Subject">
+        SELECT
+            type.dict_name AS product_type,
+            poa.real_name,
+            ppu.phone,
+            ps.raise_money,
+            ps.subject_money,
+            ps.year_interest,
+            tl.dict_name AS time_limit,
+            ps.pro_start_time,
+            sta.dict_name as pro_status
+        FROM
+            p2p_subject ps
+        LEFT JOIN p2p_open_account poa ON ps.borrower_id = poa.user_id
+        LEFT JOIN p2p_user ppu ON ppu.id = ps.borrower_id
+        LEFT JOIN p2p_dict type ON type.`code` = ps.product_type
+        LEFT JOIN p2p_dict tl ON tl.`code` = ps.time_limit
+        left join p2p_dict sta on sta.`code` = ps.pro_status
+        WHERE
+            ps.pro_audit_status = 'OVER_CHECK'
+            <if test="userId!=null">
+                and ppu.id = #{userId}
+            </if>
+    </select>
+
+    <!-- 返回我要出借页面信息 -->
+    <select id="returnOutBorrowMessage" resultType="com.dj.p2p.pojo.subject.Subject">
+        SELECT
+            type.dict_name AS product_type,
+            poa.real_name,
+            ppu.phone,
+            ps.raise_money,
+            ps.subject_money,
+            ps.year_interest,
+            tl.dict_name AS time_limit,
+            ps.pro_start_time,
+            sta.dict_name AS pro_status,
+            ps.subject_join_num
+        FROM
+            p2p_subject ps
+        LEFT JOIN p2p_open_account poa ON ps.borrower_id = poa.user_id
+        LEFT JOIN p2p_user ppu ON ppu.id = ps.borrower_id
+        LEFT JOIN p2p_dict type ON type.`code` = ps.product_type
+        LEFT JOIN p2p_dict tl ON tl.`code` = ps.time_limit
+        LEFT JOIN p2p_dict sta ON sta.`code` = ps.pro_status
+        WHERE
+            ps.pro_audit_status = 'OVER_CHECK'
+        AND
+            ps.pro_status = 'BORROW_STATUS'
+    </select>
+
+    <!-- 返回我的借款页面信息 -->
+    <select id="returnBorrowMessage" resultType="com.dj.p2p.pojo.subject.Subject">
+        SELECT
+            type.dict_name AS product_type,
+            poa.real_name,
+            ppu.phone,
+            ps.raise_money,
+            ps.subject_money,
+            ps.year_interest,
+            tl.dict_name AS time_limit,
+            ps.pro_start_time,
+            sta.dict_name AS pro_status,
+            ps.subject_join_num
+        FROM
+            p2p_subject ps
+        LEFT JOIN p2p_open_account poa ON ps.borrower_id = poa.user_id
+        LEFT JOIN p2p_user ppu ON ppu.id = ps.borrower_id
+        LEFT JOIN p2p_dict type ON type.`code` = ps.product_type
+        LEFT JOIN p2p_dict tl ON tl.`code` = ps.time_limit
+        LEFT JOIN p2p_dict sta ON sta.`code` = ps.pro_status
+        WHERE
+            ppu.id = #{userId}
+    </select>
+
+    <!-- 返回我的出借页面信息 -->
+    <select id="returnMyOutBorrow" resultType="com.dj.p2p.pojo.subject.Subject">
+         SELECT
+                type.dict_name AS product_type,
+                poa.real_name,
+                ppu.phone,
+                ps.raise_money,
+                ps.subject_money,
+                ps.year_interest,
+                tl.dict_name AS time_limit,
+                ps.pro_start_time,
+                sta.dict_name AS pro_status,
+                ps.subject_join_num
+            FROM
+                p2p_subject ps
+            LEFT JOIN p2p_open_account poa ON ps.borrower_id = poa.user_id
+            LEFT JOIN p2p_user ppu ON ppu.id = ps.borrower_id
+            LEFT JOIN p2p_dict type ON type.`code` = ps.product_type
+            LEFT JOIN p2p_dict tl ON tl.`code` = ps.time_limit
+            LEFT JOIN p2p_dict sta ON sta.`code` = ps.pro_status
+            LEFT JOIN p2p_buy_count pbc ON pbc.subject_id = ps.id
+            WHERE
+                pbc.buyer_id = #{user_id}
+            AND (
+                ps.pro_status = 'REPAY_CENTER_STATUS'
+                OR PS.pro_status = 'OVER_STATUS'
+            )
+            GROUP BY
+                pbc.buyer_id
+
+
+    </select>
+
+    <!-- 放款项目总额 -->
+    <select id="AllSubjectMoney" resultType="com.dj.p2p.pojo.subject.Subject">
+        SELECT
+            sum(ps.subject_money) as all_price
+        FROM
+            p2p_subject ps
+        WHERE
+            pro_status = 'OVER_STATUS'
+            OR pro_status = 'REPAY_CENTER_STATUS'
+    </select>
+</mapper>

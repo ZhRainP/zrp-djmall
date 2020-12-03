@@ -61,7 +61,7 @@
     function submitOrder () {
         $.post(
             "<%=request.getContextPath()%>/order/insertOrder?TOKEN=" + getToken(),
-            {},
+            $("#fm").serialize(),
             function(result){
                 if(result.code == 200){
                     alert(1);
@@ -72,9 +72,9 @@
 
 <body>
 
+<br/><span></span><br/>
+<input type="button" value = "返回" onclick="banck()" class="layui-btn layui-btn-xs"/>
 <form id = "fm">
-    <br/><span></span><br/>
-    <input type="button" value = "返回" onclick="banck()" class="layui-btn layui-btn-xs"/>
     收货人信息：<select name="addressId">
         <c:forEach var="a" items="${address}">
             <option value="${a.addressId}">${a.userName}-${a.phone}-${a.provice}-${a.city}-${a.counties}-${a.address}</option>

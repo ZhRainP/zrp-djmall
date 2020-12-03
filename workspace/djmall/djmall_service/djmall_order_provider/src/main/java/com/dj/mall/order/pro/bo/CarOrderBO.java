@@ -65,4 +65,6 @@ public class CarOrderBO {
      * sku属性名
      */
     private String skuName;
+
+    private Integer orderDetailId;
 }

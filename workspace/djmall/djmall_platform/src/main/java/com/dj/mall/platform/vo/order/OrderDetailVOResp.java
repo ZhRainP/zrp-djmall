@@ -32,10 +32,10 @@ public class OrderDetailVOResp {
      */
     private Integer productId;
 
-    /**
-     * 商户ID
-     */
-    private Integer businessId;
+//    /**
+//     * 商户ID
+//     */
+//    private Integer businessId;
 
     /**
      * skuID-针对再次购买时使用

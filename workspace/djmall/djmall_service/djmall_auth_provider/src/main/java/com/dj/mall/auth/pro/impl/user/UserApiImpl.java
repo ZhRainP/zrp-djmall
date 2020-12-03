@@ -1,6 +1,7 @@
 package com.dj.mall.auth.pro.impl.user;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.dubbo.config.annotation.Service;
+import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -17,6 +18,7 @@ import com.dj.mall.common.base.BusinessException;
 import com.dj.mall.common.constant.CodeConstant;
 import com.dj.mall.common.util.DozerUtil;
 import com.dj.mall.common.util.PasswordSecurityUtil;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 
@@ -35,6 +37,8 @@ public class UserApiImpl extends ServiceImpl<UserMapper, UserEntity> implements 
     private EMailApi eMailApi;
     @Autowired
     private RedisTemplate redisTemplate;
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
     /**
      * 登陆
      * @param username 用户名
@@ -116,6 +120,7 @@ public class UserApiImpl extends ServiceImpl<UserMapper, UserEntity> implements 
 
     /**
      * 注册用户
+     *
      * @param userDto 用户信息
      * @return
      * @throws BusinessException
@@ -142,6 +147,12 @@ public class UserApiImpl extends ServiceImpl<UserMapper, UserEntity> implements 
 //            eMailApi.sendMailHTML(userDto.getMail(),
 //                    "用户激活",
 //                    "<a href = 'http://location:8081/admin/user/active/"+userEntity.getId()+"'>点我激活</a>");
+            String emailText = "<a href = 'http://location:8081/admin/user/active/"+userEntity.getId()+"'>点我激活</a>";
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.put("to", userDto.getMail());
+            jsonObject.put("subject", "商户激活");
+            jsonObject.put("mailText", emailText);
+            rabbitTemplate.convertAndSend("email-ex", "email.queue", "");
         }
         return true;
     }

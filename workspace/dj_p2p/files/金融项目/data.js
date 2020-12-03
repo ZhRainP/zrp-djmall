@@ -1,0 +1,7 @@
+﻿$axure.loadCurrentPage(
+(function() {
+    var _ = function() { var r={},a=arguments; for(var i=0; i<a.length; i+=2) r[a[i]]=a[i+1]; return r; }
+    var _creator = function() { return _(b,c,d,e,f,g,h,g,i,_(j,k),l,[m],n,_(o,p,q,r,s,t,u,_(),v,_(w,x,y,z,A,_(B,C,D,E),F,null,G,z,H,z,I,J,K,null,L,M,N,O,P,Q,R,M),S,_(),T,_(),U,_(V,[_(W,X,Y,j,Z,ba,q,bb,bc,bb,bd,be,v,_(bf,_(bg,bh,bi,bj),w,bk,bl,_(bm,bn,bo,bj)),S,_(),bp,_(),bq,g)])),br,_(),bs,_(bt,_(bu,bv)));}; 
+var b="url",c="金融项目.html",d="generationDate",e=new Date(1566178981614.94),f="isCanvasEnabled",g=false,h="isAdaptiveEnabled",i="sketchKeys",j="",k="s0",l="variables",m="OnLoadVariable",n="page",o="packageId",p="1c269aa5878e4f058253a405d674cc90",q="type",r="Axure:Page",s="name",t="金融项目",u="notes",v="style",w="baseStyle",x="627587b6038d43cca051c114ac41ad32",y="pageAlignment",z="near",A="fill",B="fillType",C="solid",D="color",E=0xFFFFFFFF,F="image",G="imageHorizontalAlignment",H="imageVerticalAlignment",I="imageRepeat",J="auto",K="favicon",L="sketchFactor",M="0",N="colorStyle",O="appliedColor",P="fontName",Q="Applied Font",R="borderWidth",S="adaptiveStyles",T="interactionMap",U="diagram",V="objects",W="id",X="523eddbd6b9b4c74b9efcfc02c4de3b7",Y="label",Z="friendlyType",ba="矩形",bb="vectorShape",bc="styleType",bd="visible",be=true,bf="size",bg="width",bh=467,bi="height",bj=66,bk="0882bfcd7d11450d85d157758311dca5",bl="location",bm="x",bn=64,bo="y",bp="imageOverrides",bq="generateCompound",br="masters",bs="objectPaths",bt="523eddbd6b9b4c74b9efcfc02c4de3b7",bu="scriptId",bv="u0";
+return _creator();
+})());

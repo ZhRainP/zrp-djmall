@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f646e518-273b-4412-a71a-a9fc083f6157" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$I3S8KRT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$I9S9WIX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$IC432V3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$II1J51E.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$IR88GMP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$ITBB5CU.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$IWQKKGK.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$R3S8KRT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$R9S9WIX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$RBER56A.idea/djmall.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$RC432V3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$RI1J51E.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$RR88GMP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$RTBB5CU.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$RWQKKGK.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.collabnet.subversion.merge.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ide.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.navigator.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.tigris.subversion.subclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.jdt.core/index.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.8.2.20171007-0217.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.rse.core/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.samsung_127/FP.local.files_0/node.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.samsung_127/H.local_16/node.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.samsung_127/node.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.rse.ui/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11SPRING/workspace/RemoteSystemsTempFiles/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../13SSH/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/exp_work/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.8.11.20180405/jackson-annotations-2.8.11.20180405.jar.lastUpdated" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.8.11.20180405/jackson-annotations-2.8.11.20180405.pom.lastUpdated" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.8.11.20180405/jackson-core-2.8.11.20180405.jar.lastUpdated" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.8.11.20180405/jackson-core-2.8.11.20180405.pom.lastUpdated" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.11.20180405/jackson-databind-2.8.11.20180405.jar.lastUpdated" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.11.20180405/jackson-databind-2.8.11.20180405.pom.lastUpdated" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.7/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.7/log4j-api-2.7.jar" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.7/log4j-api-2.7.jar.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.7/log4j-api-2.7.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.7/log4j-api-2.7.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.7/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.7/log4j-core-2.7.jar" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.7/log4j-core-2.7.jar.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.7/log4j-core-2.7.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.7/log4j-core-2.7.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-jcl/2.7/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-jcl/2.7/log4j-jcl-2.7.jar" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-jcl/2.7/log4j-jcl-2.7.jar.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-jcl/2.7/log4j-jcl-2.7.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-jcl/2.7/log4j-jcl-2.7.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-slf4j-impl/2.7/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-slf4j-impl/2.7/log4j-slf4j-impl-2.7.jar" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-slf4j-impl/2.7/log4j-slf4j-impl-2.7.jar.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-slf4j-impl/2.7/log4j-slf4j-impl-2.7.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-slf4j-impl/2.7/log4j-slf4j-impl-2.7.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-web/2.7/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-web/2.7/log4j-web-2.7.jar" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-web/2.7/log4j-web-2.7.jar.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-web/2.7/log4j-web-2.7.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-web/2.7/log4j-web-2.7.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/example/cloud_pojo/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/example/cloud_pojo/1.0-SNAPSHOT/cloud_pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/example/cloud_pojo/1.0-SNAPSHOT/cloud_pojo-1.0-SNAPSHOT.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/example/cloud_pojo/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/example/cloud_pojo/maven-metadata-local.xml" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/1.5.13.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/1.5.13.RELEASE/spring-boot-maven-plugin-1.5.13.RELEASE.jar" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/1.5.13.RELEASE/spring-boot-maven-plugin-1.5.13.RELEASE.jar.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/1.5.13.RELEASE/spring-boot-maven-plugin-1.5.13.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/1.5.13.RELEASE/spring-boot-maven-plugin-1.5.13.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/1.5.13.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/1.5.13.RELEASE/spring-boot-starter-data-redis-1.5.13.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/1.5.13.RELEASE/spring-boot-starter-data-redis-1.5.13.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.5.13.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.5.13.RELEASE/spring-boot-starter-parent-1.5.13.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.5.13.RELEASE/spring-boot-starter-parent-1.5.13.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-aws-dependencies/1.2.2.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-aws-dependencies/1.2.2.RELEASE/spring-cloud-aws-dependencies-1.2.2.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-aws-dependencies/1.2.2.RELEASE/spring-cloud-aws-dependencies-1.2.2.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus-dependencies/1.3.3.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus-dependencies/1.3.3.RELEASE/spring-cloud-bus-dependencies-1.3.3.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus-dependencies/1.3.3.RELEASE/spring-cloud-bus-dependencies-1.3.3.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/1.1.1.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/1.1.1.RELEASE/spring-cloud-cloudfoundry-dependencies-1.1.1.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/1.1.1.RELEASE/spring-cloud-cloudfoundry-dependencies-1.1.1.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons-dependencies/1.3.3.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons-dependencies/1.3.3.RELEASE/spring-cloud-commons-dependencies-1.3.3.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons-dependencies/1.3.3.RELEASE/spring-cloud-commons-dependencies-1.3.3.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-dependencies/1.4.3.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-dependencies/1.4.3.RELEASE/spring-cloud-config-dependencies-1.4.3.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-dependencies/1.4.3.RELEASE/spring-cloud-config-dependencies-1.4.3.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-consul-dependencies/1.3.3.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-consul-dependencies/1.3.3.RELEASE/spring-cloud-consul-dependencies-1.3.3.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-consul-dependencies/1.3.3.RELEASE/spring-cloud-consul-dependencies-1.3.3.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-dependencies/1.2.4.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-dependencies/1.2.4.RELEASE/spring-cloud-contract-dependencies-1.2.4.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-dependencies/1.2.4.RELEASE/spring-cloud-contract-dependencies-1.2.4.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.3.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.3.RELEASE/spring-cloud-dependencies-parent-1.3.3.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.3.RELEASE/spring-cloud-dependencies-parent-1.3.3.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.6.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.6.RELEASE/spring-cloud-dependencies-parent-1.3.6.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.6.RELEASE/spring-cloud-dependencies-parent-1.3.6.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.7.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.7.RELEASE/spring-cloud-dependencies-parent-1.3.7.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.7.RELEASE/spring-cloud-dependencies-parent-1.3.7.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.8.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.8.RELEASE/spring-cloud-dependencies-parent-1.3.8.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.8.RELEASE/spring-cloud-dependencies-parent-1.3.8.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies/Edgware.SR3/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies/Edgware.SR3/spring-cloud-dependencies-Edgware.SR3.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies/Edgware.SR3/spring-cloud-dependencies-Edgware.SR3.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-dependencies/1.0.1.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-dependencies/1.0.1.RELEASE/spring-cloud-gateway-dependencies-1.0.1.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-dependencies/1.0.1.RELEASE/spring-cloud-gateway-dependencies-1.0.1.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-dependencies/1.4.4.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-dependencies/1.4.4.RELEASE/spring-cloud-netflix-dependencies-1.4.4.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-dependencies/1.4.4.RELEASE/spring-cloud-netflix-dependencies-1.4.4.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-security-dependencies/1.2.2.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-security-dependencies/1.2.2.RELEASE/spring-cloud-security-dependencies-1.2.2.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-security-dependencies/1.2.2.RELEASE/spring-cloud-security-dependencies-1.2.2.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-dependencies/1.3.3.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-dependencies/1.3.3.RELEASE/spring-cloud-sleuth-dependencies-1.3.3.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-dependencies/1.3.3.RELEASE/spring-cloud-sleuth-dependencies-1.3.3.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-eureka-server/1.4.4.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-eureka-server/1.4.4.RELEASE/spring-cloud-starter-eureka-server-1.4.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-eureka-server/1.4.4.RELEASE/spring-cloud-starter-eureka-server-1.4.4.RELEASE.jar.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-eureka-server/1.4.4.RELEASE/spring-cloud-starter-eureka-server-1.4.4.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-eureka-server/1.4.4.RELEASE/spring-cloud-starter-eureka-server-1.4.4.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-dependencies/Ditmars.SR3/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-dependencies/Ditmars.SR3/spring-cloud-stream-dependencies-Ditmars.SR3.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-dependencies/Ditmars.SR3/spring-cloud-stream-dependencies-Ditmars.SR3.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-task-dependencies/1.2.2.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-task-dependencies/1.2.2.RELEASE/spring-cloud-task-dependencies-1.2.2.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-task-dependencies/1.2.2.RELEASE/spring-cloud-task-dependencies-1.2.2.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-vault-dependencies/1.1.0.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-vault-dependencies/1.1.0.RELEASE/spring-cloud-vault-dependencies-1.1.0.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-vault-dependencies/1.1.0.RELEASE/spring-cloud-vault-dependencies-1.1.0.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-zookeeper-dependencies/1.2.1.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-zookeeper-dependencies/1.2.1.RELEASE/spring-cloud-zookeeper-dependencies-1.2.1.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-zookeeper-dependencies/1.2.1.RELEASE/spring-cloud-zookeeper-dependencies-1.2.1.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/spring-aspects/4.3.17.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/spring-aspects/4.3.17.RELEASE/spring-aspects-4.3.17.RELEASE.jar" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/spring-aspects/4.3.17.RELEASE/spring-aspects-4.3.17.RELEASE.jar.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/spring-aspects/4.3.17.RELEASE/spring-aspects-4.3.17.RELEASE.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/org/springframework/spring-aspects/4.3.17.RELEASE/spring-aspects-4.3.17.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第三阶段/13SSH/workspace/exp_work2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../第三阶段/18Linux/redis_two/redis_two-93e8b424.vmss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1906AliPay/dj_alipay_demo/dj_alipay_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19Idea/2001_idea/dj_parent/.idea/dj_parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19Idea/2001_idea/dj_parent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19Idea/2001_idea/dj_parent/dj_parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19Idea/2001_idea/parent/.idea/parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19Idea/2001_idea2/RestFul_demo/.idea/RestFul_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19Idea/2001_idea2/RestFul_demo/RestFul_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19Idea/tools/JetBrains 2020.2 版本 全家桶激活方式/jetbrains-agent-latest/.idea/jetbrains-agent-latest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20学生研究/Validate/jquery-validation-1.14.0/.idea/jquery-validation-1.14.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20学生研究/poi/demo-poi/demo-poi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../21JAVA8/java8-stream-demo/java8-stream-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../22SPRINGBOOT/02扩展应用/code/boot-event/boot-event.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../28Dubbo/01/code/dubbo-demo/.idea/dubbo-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../28Dubbo/01/code/dubbo-demo/dubbo-demo-consume/dubbo-demo-consume.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../28Dubbo/01/code/dubbo-demo/dubbo-demo-provider-api/dubbo-demo-provider-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../28Dubbo/01/code/dubbo-demo/dubbo-demo-provider/dubbo-demo-provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../28Dubbo/02集成Dubbo/code/boot-dubbo/boot-dubbo-api/boot-dubbo-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../28Dubbo/02集成Dubbo/code/boot-dubbo/boot-dubbo-consumer/boot-dubbo-consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../28Dubbo/02集成Dubbo/code/boot-dubbo/boot-dubbo-service/boot-dubbo-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../28Dubbo/02集成Dubbo/code/boot-dubbo/boot-dubbo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../29REDIS/02扩展应用/code/boot-event/boot-event.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../29REDIS/04集成Redis/code/boot-redis/boot-redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_spring_test_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/boot-rabbitmq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/BootRabbitmqApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/direct/DirectConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/direct/DirectProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/direct/DirectRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/dlx/DLXConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/dlx/DLXProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/dlx/DLXRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/fanout/FanoutConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/fanout/FanoutProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/fanout/FanoutRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/topic/TopicConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/topic/TopicProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/topic/TopicRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/ttl/TTLConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/ttl/TTLProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/java/com/dj/demo/ttl/TTLRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/src/test/java/com/dj/demo/BootRabbitmqApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/BootRabbitmqApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/direct/DirectConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/direct/DirectProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/direct/DirectRabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/dlx/DLXConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/dlx/DLXProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/dlx/DLXRabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/fanout/FanoutConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/fanout/FanoutProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/fanout/FanoutRabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/topic/TopicConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/topic/TopicProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/topic/TopicRabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/ttl/TTLConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/ttl/TTLProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/classes/com/dj/demo/ttl/TTLRabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../31RABBITMQ/01-单机搭建/code/boot-rabbitmq/target/test-classes/com/dj/demo/BootRabbitmqApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dj_mall/djmall_2001/.idea/djmall_2001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/data/document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/data/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/充值/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/充值/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/充值详情页面/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/充值详情页面/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/初审页面/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/初审页面/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/发标/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/发标/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/复审页面/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/复审页面/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/安全中心/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/安全中心/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/实名认证/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/实名认证/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/开户（第三方银行）/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/开户（第三方银行）/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/我的/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/我的/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/我的借款（借款人）/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/我的借款（借款人）/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/我的出借（投资人）/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/我的出借（投资人）/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/我要出借（投资人）/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/我要出借（投资人）/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/提现/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/提现/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/注册页面/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/注册页面/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/理财项目/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/理财项目/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/用户信息/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/用户信息/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/登录页面/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/登录页面/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/立即购买/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/立即购买/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/账户管理/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/账户管理/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/金融项目/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/金融项目/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/风控/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/风控/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/首页/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/首页/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/充值详情页面/u145.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/初审页面/u663.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/发标/u607.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/发标/u627.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/复审页面/u773.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/复审页面/u781.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/复审页面/u782.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/安全中心/u100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/安全中心/u90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/安全中心/u92.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/安全中心/u94.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/安全中心/u96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/安全中心/u99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/开户（第三方银行）/u80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/开户（第三方银行）/银行列表_u82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u162.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u170.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u171.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u202.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u210.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u211.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u252.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u260.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u261.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u267.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u274.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u299.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我的借款（借款人）/u306.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我要出借（投资人）/u394.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我要出借（投资人）/u395.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我要出借（投资人）/u397.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我要出借（投资人）/u402.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我要出借（投资人）/u403.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我要出借（投资人）/u404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我要出借（投资人）/u418.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我要出借（投资人）/u419.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/我要出借（投资人）/u421.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/提现/u160.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/注册页面/u29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/注册页面/u8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/注册页面/u9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/理财项目/u520.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/理财项目/u529.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/理财项目/u530.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/理财项目/u531.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/理财项目/u532.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/理财项目/u541.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/理财项目/u542.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/理财项目/u543.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/理财项目/u580.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/理财项目/u589.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/理财项目/u590.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/理财项目/u591.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/用户信息/u457.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/用户信息/u459.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/用户信息/u460.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/用户信息/u464.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/用户信息/u466.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/用户信息/u467.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/用户信息/u471.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/用户信息/u473.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/用户信息/u474.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/立即购买/u429.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/账户管理/u112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/风控/u485.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/风控/u515.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/首页/u450.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/images/首页/u451.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/debug/styles/debug.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/debug/styles/images/reset.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/debug/styles/images/reset_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/debug/styles/images/variables_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/debug/styles/images/variables_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/debug/styles/images/variables_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/debug/styles/images/variables_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/debug/styles/images/variables_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/debug/styles/images/variables_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/back_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/back_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/footnotes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/footnotes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/footnotes_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/footnotes_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/footnotes_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/footnotes_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/forward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/forward_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/forward_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/notes_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/notes_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/notes_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/notes_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/notes_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/images/notes_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/page_notes/styles/page_notes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/recordplay/recordplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/recordplay/styles/recordplay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/079_page_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/086_case_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/225_responsive_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/228_togglenotes_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/229_variables_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/231_event_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/232_search_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/233_hyperlink_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/235_folderclosed_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/236_folderopen_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/adaptivecheck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/flow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/flow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/folder_closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/folder_closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/folder_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/folder_open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/hotspots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/hotspots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/hotspots_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/hotspots_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/hotspots_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/hotspots_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/minus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/note.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/note.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/page.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/plus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/share_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/share_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/share_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/share_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/sitemap_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/sitemap_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/sitemap_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/sitemap_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/sitemap_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/sitemap_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/views.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/views.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/views_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/views_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/views_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/images/views_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/plugins/sitemap/styles/sitemap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/Other.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/chrome/allow_access.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/chrome/axure-chrome-extension.crx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/chrome/axure_logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/chrome/axure_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/chrome/chrome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/chrome/extensions_menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/chrome/safari.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/chrome/safari_advanced.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/chrome/safari_restrictions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/chrome/splitter.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/chrome/splitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/axure_rp_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/newwindow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/note.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-bg_glass_75_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-bg_inset-soft_95_fef1ec_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/jquery-ui-themes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/expand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/259_close_12rollover1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/259_close_12rollover2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/260_collapse_12rollover1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/260_collapse_12rollover2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/261_expand_12rollover1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/261_expand_12rollover2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/close_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/close_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/divider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/divider.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/expand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/expand_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/expand_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/images/transparent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/reload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/scripts/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/scripts/jquery-ui-1.8.10.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/scripts/messagecenter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/scripts/player/axplayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/scripts/player/splitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/scripts/prototypePost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/scripts/prototypePre.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/scripts/startPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/resources/scripts/startPre.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/start_c_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/start_g_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/充值.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/充值详情页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/初审页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/发标.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/复审页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/安全中心.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/实名认证.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/开户（第三方银行）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/我的.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/我的借款（借款人）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/我的出借（投资人）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/我要出借（投资人）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/提现.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/注册页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/理财项目.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/用户信息.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/登录页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/立即购买.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/账户管理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/金融项目.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/风控.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/首页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/.idea/dataSources/351afe36-a24f-4a7b-9b91-b79ab750b11b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/.idea/dataSources/351afe36-a24f-4a7b-9b91-b79ab750b11b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_common/src/main/java/com/dj/cloud/config/ResultModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_common/src/main/java/com/dj/cloud/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_common/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_common/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_common/target/classes/com/dj/cloud/config/ResultModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_common/target/classes/com/dj/cloud/config/Swagger2Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_common/target/cloud_common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/src/main/java/com/dj/cloud/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/src/main/java/com/dj/cloud/controller/OderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/src/main/java/com/dj/cloud/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/src/main/java/com/dj/cloud/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/src/main/java/com/dj/cloud/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/target/classes/com/dj/cloud/OrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/target/classes/com/dj/cloud/controller/OderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/target/classes/com/dj/cloud/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/target/classes/com/dj/cloud/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/target/classes/com/dj/cloud/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/target/classes/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/target/cloud_order-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/target/cloud_order-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_order/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_pojo/src/main/java/com/dj/cloud/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_pojo/src/main/java/com/dj/cloud/pojo/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_pojo/src/main/java/com/dj/cloud/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_pojo/target/classes/com/dj/cloud/pojo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_pojo/target/classes/com/dj/cloud/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_pojo/target/cloud_pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_pojo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/src/main/java/com/dj/cloud/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/src/main/java/com/dj/cloud/client/OrderApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/src/main/java/com/dj/cloud/client/OrderApiFullBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/src/main/java/com/dj/cloud/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/src/main/java/com/dj/cloud/config/TokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/src/main/java/com/dj/cloud/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/src/main/java/com/dj/cloud/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/src/main/java/com/dj/cloud/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/src/main/java/com/dj/cloud/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/classes/com/dj/cloud/UserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/classes/com/dj/cloud/client/OrderApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/classes/com/dj/cloud/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/classes/com/dj/cloud/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/classes/com/dj/cloud/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/classes/com/dj/cloud/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/cloud_user-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/cloud_user-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/cloud_user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/eureka/src/main/java/com/dj/cloud/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/eureka/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/eureka/target/classes/com/dj/cloud/EurekaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/eureka/target/eurake-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/eureka/target/eurake-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/eureka/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/eureka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/spring_cloud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/eureka/eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/eureka/src/main/java/com/dj/p2p/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/eureka/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/eureka/target/classes/com/dj/p2p/EurekaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_common/p2p_common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_common/src/main/java/com/dj/p2p/config/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_common/src/main/java/com/dj/p2p/config/PasswordSecurityUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_common/src/main/java/com/dj/p2p/config/ResultModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_common/src/main/java/com/dj/p2p/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_common/src/main/java/com/dj/p2p/util/DictConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_common/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_common/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_common/target/classes/com/dj/p2p/config/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_common/target/classes/com/dj/p2p/config/ResultModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_common/target/classes/com/dj/p2p/config/Swagger2Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_dict/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_dict/src/main/java/com/dj/p2p/DictApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_dict/src/main/java/com/dj/p2p/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_dict/src/main/java/com/dj/p2p/mapper/DictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_dict/src/main/java/com/dj/p2p/service/DictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_dict/src/main/java/com/dj/p2p/service/impl/DictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_dict/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_dict/target/classes/com/dj/p2p/DictApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_financial/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_financial/src/main/java/com/dj/p2p/FinancialApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_financial/src/main/java/com/dj/p2p/client/DictApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_financial/src/main/java/com/dj/p2p/client/DictApiFullBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_financial/src/main/java/com/dj/p2p/client/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_financial/src/main/java/com/dj/p2p/client/UserApiFullBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_financial/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_financial/src/main/resources/haha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/RiskControlApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/client/DictApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/client/DictApiFullBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/client/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/client/UserApiFullBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/controller/RiskControlController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/mapper/IP2pExaTraMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/mapper/P2pRecheckMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/mapper/RiskControlMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/service/IP2pExaTraService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/service/IP2pRecheckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/service/RiskControlService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/service/impl/IP2pExaTraServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/service/impl/P2pRecheckServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/java/com/dj/p2p/service/impl/RiskControlServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_risk_control/src/main/resources/mapper/RiskControlMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/client/DictApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/client/DictApiFullBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/config/TokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/mapper/UserDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/mapper/UserLoginMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/mapper/UserWalletMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/service/UserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/service/UserLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/service/UserWalletService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/service/impl/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/service/impl/UserLoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/java/com/dj/p2p/service/impl/UserWalletServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/resources/mapper/UserDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/src/main/resources/mapper/UserWalletMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/p2p_user/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/pojo/src/main/java/com/dj/p2p/dict/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/pojo/src/main/java/com/dj/p2p/riskcontrol/P2pExaTra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/pojo/src/main/java/com/dj/p2p/riskcontrol/P2pRecheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/pojo/src/main/java/com/dj/p2p/riskcontrol/RiskControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/pojo/src/main/java/com/dj/p2p/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/pojo/src/main/java/com/dj/p2p/user/UserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/pojo/src/main/java/com/dj/p2p/user/UserLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/pojo/src/main/java/com/dj/p2p/user/UserWallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/pojo/target/classes/com/dj/p2p/user/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../workspace/zrp_p2p/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_api/djmall_order_api/src/main/java/com/dj/mall/order/api/dto/OrderDetailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_api/djmall_order_api/src/main/java/com/dj/mall/order/api/dto/OrderDetailDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_api/djmall_order_api/src/main/java/com/dj/mall/order/api/dto/OrderInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_api/djmall_order_api/src/main/java/com/dj/mall/order/api/dto/OrderInfoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_platform/src/main/java/com/dj/mall/platform/vo/order/OrderDetailVOReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_platform/src/main/java/com/dj/mall/platform/vo/order/OrderDetailVOReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_platform/src/main/java/com/dj/mall/platform/vo/order/OrderDetailVOResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_platform/src/main/java/com/dj/mall/platform/vo/order/OrderDetailVOResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_platform/src/main/java/com/dj/mall/platform/vo/order/OrderInfoVOReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_platform/src/main/java/com/dj/mall/platform/vo/order/OrderInfoVOReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_platform/src/main/java/com/dj/mall/platform/vo/order/OrderInfoVOResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_platform/src/main/java/com/dj/mall/platform/vo/order/OrderInfoVOResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_platform/src/main/webapp/WEB-INF/page/mall/set_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_platform/src/main/webapp/WEB-INF/page/mall/set_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_service/djmall_auth_provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_service/djmall_auth_provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_service/djmall_auth_provider/src/main/java/com/dj/mall/auth/pro/impl/user/UserApiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_service/djmall_auth_provider/src/main/java/com/dj/mall/auth/pro/impl/user/UserApiImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_service/djmall_order_provider/src/main/java/com/dj/mall/order/pro/bo/CarOrderBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../workspace/djmall/djmall_service/djmall_order_provider/src/main/java/com/dj/mall/order/pro/bo/CarOrderBO.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\software\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l9WTvlZaUAoIv2cAQPceeFE0xD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DictStart">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DictStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dict_p2p" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dj.p2p.DictStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka_p2p" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dj.p2p.EurekaStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriceStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="price_p2p" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dj.p2p.PriceStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RiskStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="risk_p2p" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dj.p2p.RiskStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user_p2p" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dj.p2p.UserStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f646e518-273b-4412-a71a-a9fc083f6157" name="Default Changelist" comment="" />
+      <created>1607009800469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607009800469</updated>
+      <workItem from="1607009802054" duration="418000" />
+      <workItem from="1607011488344" duration="367000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom" timestamp="1607010221610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607010221610" />
+    <state width="1024" height="210" key="GridCell.Tab.0.center" timestamp="1607010221610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607010221610" />
+    <state width="1024" height="210" key="GridCell.Tab.0.left" timestamp="1607010221610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607010221610" />
+    <state width="1024" height="210" key="GridCell.Tab.0.right" timestamp="1607010221610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607010221610" />
+    <state width="1024" height="210" key="GridCell.Tab.1.bottom" timestamp="1607010221610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607010221610" />
+    <state width="1024" height="210" key="GridCell.Tab.1.center" timestamp="1607010221610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607010221610" />
+    <state width="1024" height="210" key="GridCell.Tab.1.left" timestamp="1607010221610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607010221610" />
+    <state width="1024" height="210" key="GridCell.Tab.1.right" timestamp="1607010221610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607010221610" />
+    <state x="272" y="58" key="SettingsEditor" timestamp="1607009819121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607009819121" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1607011517312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607011517312" />
+  </component>
+</project>

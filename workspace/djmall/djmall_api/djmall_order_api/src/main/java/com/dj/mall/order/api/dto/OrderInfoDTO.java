@@ -23,10 +23,10 @@ public class OrderInfoDTO implements Serializable {
      */
     private Integer buyerId;
 
-    /**
-     * 商户ID
-     */
-    private Integer businessId;
+//    /**
+//     * 商户ID
+//     */
+//    private Integer businessId;
 
     /**
      * 商品ID,按商户拆可以去掉

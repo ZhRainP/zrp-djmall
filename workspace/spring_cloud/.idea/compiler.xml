@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud_user" />
+        <module name="cloud_order" />
+        <module name="cloud_pojo" />
+        <module name="cloud_common" />
+        <module name="eureka" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud_order" options="-verbose -bootclasspath D:/software/Java/jdk1.8.0_151/jre/lib/rt.jar" />
+      <module name="cloud_user" options="-verbose -bootclasspath D:/software/Java/jdk1.8.0_151/jre/lib/rt.jar" />
+    </option>
+  </component>
+</project>
