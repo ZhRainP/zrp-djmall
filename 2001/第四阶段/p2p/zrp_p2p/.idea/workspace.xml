@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f646e518-273b-4412-a71a-a9fc083f6157" name="Default Changelist" comment="">
+    <list default="true" id="f646e518-273b-4412-a71a-a9fc083f6157" name="Default Changelist" comment="first commit">
       <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$I3S8KRT.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$I9S9WIX.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../../$RECYCLE.BIN/S-1-5-21-800292969-628003815-2556519002-1001/$IC432V3.iml" afterDir="false" />
@@ -351,6 +351,190 @@
       <change afterPath="$PROJECT_DIR$/../../dj_mall/djmall_2001/.idea/djmall_2001.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/java/com/dj/p2p/common/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/java/com/dj/p2p/common/PasswordSecurityUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/java/com/dj/p2p/common/ResultModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/java/com/dj/p2p/config/CustomExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/java/com/dj/p2p/config/PowerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/java/com/dj/p2p/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/java/com/dj/p2p/config/TokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/java/com/dj/p2p/config/WebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/java/com/dj/p2p/constant/CacheConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/java/com/dj/p2p/constant/DictConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/java/com/dj/p2p/constant/RiskConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/java/com/dj/p2p/constant/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/com/dj/p2p/common/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/com/dj/p2p/common/PasswordSecurityUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/com/dj/p2p/common/ResultModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/com/dj/p2p/config/CustomExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/com/dj/p2p/config/PowerInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/com/dj/p2p/config/Swagger2Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/com/dj/p2p/config/TokenInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/com/dj/p2p/config/WebConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/com/dj/p2p/constant/CacheConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/com/dj/p2p/constant/DictConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/com/dj/p2p/constant/RiskConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_p2p/target/classes/com/dj/p2p/constant/UserConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/src/main/java/com/dj/p2p/DictStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/src/main/java/com/dj/p2p/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/src/main/java/com/dj/p2p/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/src/main/java/com/dj/p2p/mapper/DictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/src/main/java/com/dj/p2p/service/DictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/src/main/java/com/dj/p2p/service/impl/DictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/target/classes/com/dj/p2p/DictStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/target/classes/com/dj/p2p/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/target/classes/com/dj/p2p/controller/DictController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/target/classes/com/dj/p2p/mapper/DictMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/target/classes/com/dj/p2p/service/DictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_p2p/target/classes/com/dj/p2p/service/impl/DictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_p2p/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_p2p/src/main/java/com/dj/p2p/EurekaStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_p2p/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_p2p/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_p2p/target/classes/com/dj/p2p/EurekaStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/src/main/java/com/dj/p2p/pojo/buycount/BuyCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/src/main/java/com/dj/p2p/pojo/dict/Dict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/src/main/java/com/dj/p2p/pojo/financial/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/src/main/java/com/dj/p2p/pojo/logincount/LoginCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/src/main/java/com/dj/p2p/pojo/openaccount/OpenAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/src/main/java/com/dj/p2p/pojo/pricemanage/AccountManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/src/main/java/com/dj/p2p/pojo/subject/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/src/main/java/com/dj/p2p/pojo/subject/CheckRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/src/main/java/com/dj/p2p/pojo/subject/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/src/main/java/com/dj/p2p/pojo/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/target/classes/com/dj/p2p/pojo/buycount/BuyCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/target/classes/com/dj/p2p/pojo/dict/Dict.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/target/classes/com/dj/p2p/pojo/financial/Bill.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/target/classes/com/dj/p2p/pojo/logincount/LoginCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/target/classes/com/dj/p2p/pojo/openaccount/OpenAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/target/classes/com/dj/p2p/pojo/pricemanage/AccountManage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/target/classes/com/dj/p2p/pojo/subject/Check.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/target/classes/com/dj/p2p/pojo/subject/CheckRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/target/classes/com/dj/p2p/pojo/subject/Subject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo_p2p/target/classes/com/dj/p2p/pojo/user/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/PriceStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/client/DictApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/client/DictApiFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/client/RiskApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/client/RiskApiFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/client/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/client/UserApiFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/controller/AccountManageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/mapper/AccountManageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/mapper/BillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/mapper/BuyCountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/service/AccountManageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/service/BillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/service/BuyCountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/service/impl/AccountManageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/service/impl/BillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/java/com/dj/p2p/service/impl/BuyCountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/resources/mapper/BillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/src/main/resources/mapper/BuyCountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/PriceStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/client/DictApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/client/DictApiFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/client/RiskApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/client/RiskApiFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/client/UserApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/client/UserApiFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/controller/AccountManageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/mapper/AccountManageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/mapper/BillMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/mapper/BuyCountMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/service/AccountManageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/service/BillService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/service/BuyCountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/service/impl/AccountManageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/service/impl/BillServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/com/dj/p2p/service/impl/BuyCountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/mapper/BillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_p2p/target/classes/mapper/BuyCountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/RiskStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/client/DictApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/client/PriceApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/client/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/controller/SubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/mapper/CheckMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/mapper/CheckRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/mapper/SubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/service/CheckRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/service/CheckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/service/SubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/service/impl/CheckRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/service/impl/CheckServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/java/com/dj/p2p/service/impl/SubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/src/main/resources/mapper/SubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/RiskStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/client/DictApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/client/PriceApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/client/UserApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/controller/SubjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/mapper/CheckMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/mapper/CheckRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/mapper/SubjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/service/CheckRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/service/CheckService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/service/SubjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/service/impl/CheckRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/service/impl/CheckServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/com/dj/p2p/service/impl/SubjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/risk_p2p/target/classes/mapper/SubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/UserStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/client/AccountManageApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/client/AccountManageApiFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/client/DictApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/client/DictApiFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/mapper/LoginCountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/mapper/OpenAccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/service/LoginCountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/service/OpenAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/service/impl/LoginCountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/service/impl/OpenAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/java/com/dj/p2p/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/UserStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/client/AccountManageApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/client/AccountManageApiFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/client/DictApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/client/DictApiFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/mapper/LoginCountMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/mapper/OpenAccountMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/service/LoginCountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/service/OpenAccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/service/impl/LoginCountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/service/impl/OpenAccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/com/dj/p2p/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_p2p/target/classes/mapper/UserMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/data/document.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/data/styles.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../../workspace/dj_p2p/files/充值/data.js" afterDir="false" />
@@ -933,7 +1117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607009800469</updated>
       <workItem from="1607009802054" duration="418000" />
-      <workItem from="1607011488344" duration="367000" />
+      <workItem from="1607011488344" duration="716000" />
     </task>
     <servers />
   </component>
@@ -951,6 +1135,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1024" height="210" key="GridCell.Tab.0.bottom" timestamp="1607010221610">

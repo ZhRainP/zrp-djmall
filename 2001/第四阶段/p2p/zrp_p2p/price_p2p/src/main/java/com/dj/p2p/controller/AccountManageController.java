@@ -32,14 +32,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-/**
- * <p>
- * 前端控制器
- * </p>
- *
- * @author ldm
- * @since 2020-11-28
- */
+
 @RestController
 @RequestMapping("/manage/")
 @Api(tags = "账户管理API")

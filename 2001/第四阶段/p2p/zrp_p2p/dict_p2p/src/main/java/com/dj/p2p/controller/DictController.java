@@ -15,14 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
-/**
- * <p>
- * 前端控制器
- * </p>
- *
- * @author ldm
- * @since 2020-11-26
- */
+
 @RestController
 @RequestMapping(value = "/dict/", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 @Api(tags = "字典API")

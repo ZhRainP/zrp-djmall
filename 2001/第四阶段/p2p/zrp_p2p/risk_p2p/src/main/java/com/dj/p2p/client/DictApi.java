@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-/**
- * @author lindemin
- */
+
 @FeignClient(name = "dict-service", path = "/dict/")
 public interface DictApi {
 

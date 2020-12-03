@@ -8,9 +8,7 @@ import org.springframework.util.Assert;
 
 import java.util.List;
 
-/**
- * @author lindemin
- */
+
 @Slf4j
 @Component
 public class AccountManageApiFallBack implements AccountManageApi {

@@ -7,9 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-/**
- * @author lindemin
- */
+
 @SpringBootApplication
 @EnableEurekaClient // 开启客户端注解
 @EnableFeignClients // 开启服务之间调用  采用feign

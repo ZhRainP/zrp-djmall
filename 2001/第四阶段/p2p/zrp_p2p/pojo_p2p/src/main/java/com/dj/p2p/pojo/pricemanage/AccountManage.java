@@ -9,14 +9,7 @@ import lombok.EqualsAndHashCode;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-/**
- * <p>
- *
- * </p>
- *
- * @author ldm
- * @since 2020-11-28
- */
+
 @Data
 @EqualsAndHashCode(callSuper = false)
 public class AccountManage implements Serializable {

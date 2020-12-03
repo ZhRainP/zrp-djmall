@@ -4,9 +4,7 @@ import com.dj.p2p.common.ResultModel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
-/**
- * @author lindemin
- */
+
 @Slf4j
 @Component
 public class UserApiFallBack implements UserApi {

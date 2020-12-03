@@ -6,9 +6,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-/**
- * @author lindemin
- */
+
 @Slf4j
 @Component
 public class DictApiFallBack implements DictApi {

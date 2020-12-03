@@ -1,8 +1,6 @@
 package com.dj.p2p.constant;
 
-/**
- * @author lindemin
- */
+
 public interface RiskConstant {
 
     /**

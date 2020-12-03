@@ -12,14 +12,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-/**
- * <p>
- *
- * </p>
- *
- * @author ldm
- * @since 2020-12-02
- */
+
 @Data
 @EqualsAndHashCode(callSuper = false)
 public class Bill implements Serializable {

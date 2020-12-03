@@ -4,10 +4,6 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-/**
- * 自定义-业务处理异常类
- * @author lindemin
- */
 @Data
 public class BusinessException extends RuntimeException implements Serializable {
 

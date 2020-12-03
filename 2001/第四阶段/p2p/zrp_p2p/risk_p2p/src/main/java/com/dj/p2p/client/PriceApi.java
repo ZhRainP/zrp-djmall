@@ -10,9 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.xml.transform.Result;
 
-/**
- * @author lindemin
- */
 @FeignClient(name = "accountManage-service", path = "/manage/")
 public interface PriceApi {
 

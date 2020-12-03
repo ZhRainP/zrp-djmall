@@ -28,14 +28,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * <p>
- * 前端控制器
- * </p>
- *
- * @author ldm
- * @since 2020-11-30
- */
+
 @RestController
 @RequestMapping("/subject/")
 @Api(tags = "风控API")

@@ -30,14 +30,7 @@ import java.time.LocalDateTime;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-/**
- * <p>
- * 服务实现类
- * </p>
- *
- * @author ldm
- * @since 2020-11-26
- */
+
 @Service
 @Transactional(rollbackFor = Exception.class)
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {

@@ -8,9 +8,7 @@ import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 import java.util.List;
 
-/**
- * @author lindemin
- */
+
 @Slf4j
 @Component
 public class RiskApiFallBack implements RiskApi {

@@ -10,14 +10,7 @@ import com.dj.p2p.pojo.subject.Subject;
 import java.math.BigDecimal;
 import java.util.List;
 
-/**
- * <p>
- * 服务类
- * </p>
- *
- * @author ldm
- * @since 2020-11-30
- */
+
 public interface SubjectService extends IService<Subject> {
 
     /**

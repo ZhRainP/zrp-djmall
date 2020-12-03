@@ -15,14 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * <p>
- *  服务实现类
- * </p>
- *
- * @author ldm
- * @since 2020-11-26
- */
+
 @Service
 public class DictServiceImpl extends ServiceImpl<DictMapper, Dict> implements DictService {
 

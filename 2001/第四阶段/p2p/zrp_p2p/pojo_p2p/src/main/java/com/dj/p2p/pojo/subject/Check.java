@@ -10,14 +10,7 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-/**
- * <p>
- *
- * </p>
- *
- * @author ldm
- * @since 2020-11-30
- */
+
 @Data
 @EqualsAndHashCode(callSuper = false)
 public class Check implements Serializable {

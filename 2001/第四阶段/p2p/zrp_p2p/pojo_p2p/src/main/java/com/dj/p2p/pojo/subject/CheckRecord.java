@@ -10,14 +10,7 @@ import lombok.EqualsAndHashCode;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
-/**
- * <p>
- *
- * </p>
- *
- * @author ldm
- * @since 2020-11-30
- */
+
 @Data
 @EqualsAndHashCode(callSuper = false)
 public class CheckRecord implements Serializable {

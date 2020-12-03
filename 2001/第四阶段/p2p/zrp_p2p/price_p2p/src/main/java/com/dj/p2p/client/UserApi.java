@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.ws.rs.POST;
 
-/**
- * @author lindemin
- */
+
 @FeignClient(name = "user-service", path = "/user/", fallback = UserApiFallBack.class)
 public interface UserApi {
 

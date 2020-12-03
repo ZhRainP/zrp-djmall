@@ -19,11 +19,7 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Token拦截器
- *
- * @author lindemin
- */
+
 @Component
 public class TokenInterceptor implements HandlerInterceptor {
 

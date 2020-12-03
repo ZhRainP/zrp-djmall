@@ -32,10 +32,10 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("林德敏")
-                .description("林德敏")
+                .title("金融项目")
+                .description("金融")
                 // 作者信息
-                .contact(new Contact("ldm", "https://www.lindemin.cn", "lindemin123r@163.com"))
+                .contact(new Contact("ldm", "https://www.zrp.cn", "zrp521zrp@163.com"))
                 .version("1.0.0")
                 .build();
     }

@@ -4,14 +4,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.dj.p2p.pojo.financial.Bill;
 import org.springframework.dao.DataAccessException;
 
-/**
- * <p>
- * Mapper 接口
- * </p>
- *
- * @author ldm
- * @since 2020-12-02
- */
+
 public interface BillMapper extends BaseMapper<Bill> {
 
     /**

@@ -27,14 +27,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * <p>
- * 前端控制器
- * </p>
- *
- * @author ldm
- * @since 2020-11-26
- */
+
 @RestController
 @RequestMapping(value = "/user/", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 @Api(tags = "用户API")

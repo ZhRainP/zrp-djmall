@@ -9,9 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.ws.rs.POST;
 import java.math.BigDecimal;
 
-/**
- * @author lindemin
- */
+
 @FeignClient(name = "risk-service", path = "/subject/", fallback = RiskApiFallBack.class)
 public interface RiskApi {
 

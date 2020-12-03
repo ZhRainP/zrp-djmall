@@ -8,14 +8,7 @@ import javax.xml.crypto.Data;
 import java.math.BigDecimal;
 import java.util.List;
 
-/**
- * <p>
- * Mapper 接口
- * </p>
- *
- * @author ldm
- * @since 2020-11-30
- */
+
 public interface SubjectMapper extends BaseMapper<Subject> {
 
     /**

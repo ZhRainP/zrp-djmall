@@ -34,14 +34,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-/**
- * <p>
- * 服务实现类
- * </p>
- *
- * @author ldm
- * @since 2020-11-28
- */
+
 @Service
 @Transactional(rollbackFor = Exception.class)
 public class AccountManageServiceImpl extends ServiceImpl<AccountManageMapper, AccountManage> implements AccountManageService {

@@ -6,14 +6,7 @@ import com.dj.p2p.common.ResultModel;
 import com.dj.p2p.pojo.financial.Bill;
 import com.dj.p2p.pojo.subject.Subject;
 
-/**
- * <p>
- * 服务类
- * </p>
- *
- * @author ldm
- * @since 2020-12-02
- */
+
 public interface BillService extends IService<Bill> {
 
     /**

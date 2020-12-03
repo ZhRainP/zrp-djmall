@@ -15,9 +15,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * @author lindemin
- */
+
 @SpringBootApplication
 @EnableEurekaClient // 开启客户端注解
 @EnableFeignClients // 开启服务之间调用  采用feign

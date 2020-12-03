@@ -10,10 +10,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-/**
- * 自定义异常处理器
- * @author lindemin
- */
+
 @ControllerAdvice
 public class CustomExceptionHandler {
 

@@ -7,9 +7,7 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
 
-/**
- * @author lindemin
- */
+
 @FeignClient(name = "user-service", path = "/user/")
 public interface UserApi {
 

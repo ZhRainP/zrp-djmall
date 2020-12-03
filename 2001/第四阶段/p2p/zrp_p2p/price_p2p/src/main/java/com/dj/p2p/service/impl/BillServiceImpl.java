@@ -28,14 +28,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.*;
 
-/**
- * <p>
- * 服务实现类
- * </p>
- *
- * @author ldm
- * @since 2020-12-02
- */
+
 @Service
 public class BillServiceImpl extends ServiceImpl<BillMapper, Bill> implements BillService {
 

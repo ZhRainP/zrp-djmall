@@ -18,14 +18,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * <p>
- *  服务实现类
- * </p>
- *
- * @author ldm
- * @since 2020-11-27
- */
+
 @Service
 @Transactional(rollbackFor = Exception.class)
 public class OpenAccountServiceImpl extends ServiceImpl<OpenAccountMapper, OpenAccount> implements OpenAccountService {

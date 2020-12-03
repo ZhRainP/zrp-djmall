@@ -10,14 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * <p>
- * 服务实现类
- * </p>
- *
- * @author ldm
- * @since 2020-12-02
- */
+
 @Service
 public class BuyCountServiceImpl extends ServiceImpl<BuyCountMapper, BuyCount> implements BuyCountService {
 

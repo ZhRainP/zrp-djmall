@@ -6,14 +6,7 @@ import com.dj.p2p.common.ResultModel;
 import com.dj.p2p.pojo.openaccount.OpenAccount;
 import com.dj.p2p.pojo.user.User;
 
-/**
- * <p>
- * 服务类
- * </p>
- *
- * @author ldm
- * @since 2020-11-26
- */
+
 public interface UserService extends IService<User> {
 
     /**

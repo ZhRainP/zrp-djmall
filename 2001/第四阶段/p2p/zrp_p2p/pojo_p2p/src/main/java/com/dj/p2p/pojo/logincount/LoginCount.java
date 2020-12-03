@@ -5,14 +5,7 @@ import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-/**
- * <p>
- * 
- * </p>
- *
- * @author ldm
- * @since 2020-11-28
- */
+
 @Data
 @EqualsAndHashCode(callSuper = false)
 public class LoginCount implements Serializable {

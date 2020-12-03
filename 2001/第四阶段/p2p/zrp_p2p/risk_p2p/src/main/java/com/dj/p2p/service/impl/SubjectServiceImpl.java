@@ -30,14 +30,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * <p>
- * 服务实现类
- * </p>
- *
- * @author ldm
- * @since 2020-11-30
- */
+
 @Service
 @Transactional(rollbackFor = Exception.class)
 public class SubjectServiceImpl extends ServiceImpl<SubjectMapper, Subject> implements SubjectService {

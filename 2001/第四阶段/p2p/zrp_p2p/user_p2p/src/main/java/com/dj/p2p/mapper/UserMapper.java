@@ -8,14 +8,7 @@ import org.springframework.dao.DataAccessException;
 import javax.xml.crypto.Data;
 import java.util.List;
 
-/**
- * <p>
- * Mapper 接口
- * </p>
- *
- * @author ldm
- * @since 2020-11-26
- */
+
 public interface UserMapper extends BaseMapper<User> {
 
     /**

@@ -7,14 +7,7 @@ import com.dj.p2p.pojo.pricemanage.AccountManage;
 
 import java.math.BigDecimal;
 
-/**
- * <p>
- * 服务类
- * </p>
- *
- * @author ldm
- * @since 2020-11-28
- */
+
 public interface AccountManageService extends IService<AccountManage> {
 
     /**

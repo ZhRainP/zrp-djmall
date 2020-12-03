@@ -15,9 +15,7 @@ import org.springframework.web.servlet.config.annotation.*;
 
 import java.util.List;
 
-/**
- * @author lindemin
- */
+
 @Configuration
 public class WebConfiguration implements WebMvcConfigurer {
 
